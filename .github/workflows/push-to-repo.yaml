@@ -22,7 +22,7 @@ jobs:
         id: publish-chart
         uses: moikot/chart-publish-action@v1.0.0
         with:
-          chart: helmfile/charts/calico-accountant
+          chart: "helmfile/chart"
           charts_dir: "charts"
           charts_url: "https://robinelastisys.github.io/helm-charts"
         env:
