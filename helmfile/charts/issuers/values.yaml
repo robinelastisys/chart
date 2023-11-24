@@ -1,0 +1,12 @@
+letsencrypt:
+  enabled: false
+  namespaces: []
+  prod:
+    email: ""
+    solvers: []
+  staging:
+    email: ""
+    solvers: []
+
+extraIssuers: []
+secrets: {}

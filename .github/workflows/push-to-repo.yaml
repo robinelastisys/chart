@@ -1,0 +1,40 @@
+name: push-to-repo
+
+on:
+  push:
+
+jobs:
+  buildx:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout helm-charts
+        uses: actions/checkout@v2
+        with:
+          repository: robinelastisys/helm-charts
+          ref: refs/heads/gh-pages
+          path: helm-charts
+          #token: ${{ secrets.CHART_PUBLISH_TOKEN }}
+        env:
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Publish the Helm chart
+        id: publish-chart
+        uses: moikot/chart-publish-action@v1
+        with:
+          chart: helmfile/charts
+          charts_dir: "charts"
+          charts_url: "https://robinelastisys.github.io/helm-charts"
+        env:
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Commit and push helm-charts
+        uses: EndBug/add-and-commit@v6
+        with:
+          author_name: Jane Doe
+          author_email: janedoe@example.com
+          branch: gh-pages
+          cwd: helm-charts
+          message: "Commit chart ${{ steps.publish-chart.outputs.chart }}"
+        env:
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
