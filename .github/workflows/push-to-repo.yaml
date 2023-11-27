@@ -14,7 +14,8 @@ jobs:
           repository: robinelastisys/helm-charts
           ref: refs/heads/gh-pages
           path: charts
-          token: ${{ secrets.CHART_PUBLISH_TOKEN }}
+        env:
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Publish the Helm chart
         id: publish-chart
