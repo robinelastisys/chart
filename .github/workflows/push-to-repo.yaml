@@ -14,6 +14,7 @@ jobs:
           repository: robinelastisys/helm-charts
           ref: refs/heads/gh-pages
           path: charts
+          token: $${{ secrets.GITHUB_TOKEN }}
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
@@ -22,7 +23,6 @@ jobs:
         uses: moikot/chart-publish-action@v1.0.0
         with:
           chart: "helmfile/chart"
-          helm_image: alpine/helm:3.13.2
           charts_dir: "charts"
           charts_url: "https://robinelastisys.github.io/helm-charts"
 
