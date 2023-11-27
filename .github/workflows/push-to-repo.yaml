@@ -21,7 +21,7 @@ jobs:
         id: publish-chart
         uses: moikot/chart-publish-action@v1.0.0
         with:
-          helm_image: "alpine/helm:3.13.2"
+          helm_image: "girade/helm:3.5.1"
           charts_dir: "charts"
           charts_url: "https://robinelastisys.github.io/helm-charts"
 
