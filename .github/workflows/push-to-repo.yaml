@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout helm-chart
+      - name: Checkout helm-charts
         uses: actions/checkout@v2
         with:
           repository: robinelastisys/helm-charts
