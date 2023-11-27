@@ -14,9 +14,7 @@ jobs:
           repository: robinelastisys/helm-charts
           ref: refs/heads/gh-pages
           path: charts
-          token: ${{ secrets.GITHUB_TOKEN }}
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          token: ${{ secrets.CHART_PUBLISH_TOKEN }}
 
       - name: Publish the Helm chart
         id: publish-chart
@@ -25,16 +23,12 @@ jobs:
           chart: "helmfile/chart"
           charts_dir: "charts"
           charts_url: "https://robinelastisys.github.io/helm-charts"
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Commit and push helm-charts
         uses: EndBug/add-and-commit@v6
         with:
-          author_name: Jane Doe
-          author_email: janedoe@example.com
+          author_name: Robin Ramquist
+          author_email: robin.ramquist@elastisys.com
           branch: gh-pages
           cwd: helm-charts
           message: "Commit chart ${{ steps.publish-chart.outputs.chart }}"
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
