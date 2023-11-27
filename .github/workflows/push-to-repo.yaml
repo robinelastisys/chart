@@ -22,6 +22,7 @@ jobs:
         uses: moikot/chart-publish-action@v1.0.0
         with:
           chart: "helmfile/chart"
+          helm_image: "alpine/helm:latest"
           charts_dir: "charts"
           charts_url: "https://robinelastisys.github.io/helm-charts"
 
