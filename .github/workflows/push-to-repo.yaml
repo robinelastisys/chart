@@ -19,7 +19,7 @@ jobs:
 
       - name: Publish the Helm chart
         id: publish-chart
-        uses: robinelastisys/chart-publish-action
+        uses: robinelastisys/chart-publish-action@1.0.0
         with:
           helm_image: "alpine/k8s:1.25.16"
           charts_dir: "charts"
