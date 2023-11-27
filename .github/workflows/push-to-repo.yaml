@@ -14,7 +14,6 @@ jobs:
           repository: robinelastisys/helm-charts
           ref: refs/heads/gh-pages
           path: charts
-          token: $${{ secrets.GITHUB_TOKEN }}
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
