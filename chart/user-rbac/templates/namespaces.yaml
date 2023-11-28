@@ -1,0 +1,13 @@
+{{- if .Values.createNamespaces }}
+{{- range $namespace := .Values.namespaces }}
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ $namespace.name }}
+  labels:
+    pod-security.kubernetes.io/audit: {{ $namespace.psa }}
+    pod-security.kubernetes.io/enforce: {{ $namespace.psa }}
+    pod-security.kubernetes.io/warn: {{ $namespace.psa }}
+---
+{{- end }}
+{{- end }}

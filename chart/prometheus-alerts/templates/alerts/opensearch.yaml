@@ -1,0 +1,79 @@
+{{- if and .Values.defaultRules.create .Values.defaultRules.rules.opensearch }}
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: {{ printf "%s-%s" (include "prometheus-alerts.fullname" .) "opensearch-alerts" | trunc 63 | trimSuffix "-" }}
+  labels:
+    app: {{ template "prometheus-alerts.fullname" . }}
+{{ include "prometheus-alerts.labels" . | indent 4 }}
+{{- if .Values.defaultRules.alertLabels }}
+{{ toYaml .Values.defaultRules.alertLabels | indent 4 }}
+{{- end }}
+{{- if .Values.defaultRules.annotations }}
+  annotations:
+{{ toYaml .Values.defaultRules.annotations | indent 4 }}
+{{- end }}
+spec:
+  groups:
+  - name: opensearch-alerts
+    rules:
+    - alert: OpenSearchTooFewNodesRunning
+      expr: elasticsearch_cluster_health_number_of_nodes{namespace="opensearch-system"} < {{ .Values.osNodeCount }}
+      for: 15m
+      labels:
+        severity: critical
+      annotations:
+        description: There are only {{`{{ $value }}`}}  OpenSearch nodes running
+        summary: OpenSearch running on less than {{ .Values.osNodeCount }} nodes
+    - alert: OpenSearchHeapTooHigh
+      expr: elasticsearch_jvm_memory_used_bytes{namespace="opensearch-system",area="heap"} / elasticsearch_jvm_memory_max_bytes{namespace="opensearch-system",area="heap"}
+        > 0.9
+      for: 15m
+      labels:
+        severity: critical
+      annotations:
+        description: The heap usage is over 90% for 15m
+        summary: OpenSearch node {{`{{ $labels.node}}`}} heap usage is high
+    - alert: OpenSearchFieldLimit
+      expr: (sum(max_over_time(elasticsearch_indices_mappings_stats_fields{namespace="opensearch-system"}[5m])) by (index) / sum(max_over_time(elasticsearch_indices_settings_total_fields{namespace="opensearch-system"}[5m])) by (index)) * 100 > 80
+      for: 15m
+      labels:
+        severity: warning
+      annotations:
+        description: Index {{`{{ $labels.index }}`}} is using {{`{{ $value }}`}} percent of max field limit
+        summary: Index {{`{{ $labels.index }}`}} is using {{`{{ $value }}`}} percent of max field limit
+    - alert: OpenSearchFieldLimit
+      expr: (sum(max_over_time(elasticsearch_indices_mappings_stats_fields{namespace="opensearch-system"}[5m])) by (index) / sum(max_over_time(elasticsearch_indices_settings_total_fields{namespace="opensearch-system"}[5m])) by (index)) * 100 > 95
+      for: 15m
+      labels:
+        severity: critical
+      annotations:
+        description: Index {{`{{ $labels.index }}`}} is using {{`{{ $value }}`}} percent of max field limit
+        summary: Index {{`{{ $labels.index }}`}} is using {{`{{ $value }}`}} percent of max field limit
+    - alert: OpensearchClusterYellow
+      expr: elasticsearch_cluster_health_status{namespace="opensearch-system",color="yellow"} == 1
+      for: 15m
+      labels:
+        severity: warning
+      annotations:
+        summary: Opensearch Cluster Yellow (instance {{`{{ $labels.instance }}`}})
+        description: Opensearch Cluster is in a Yellow status VALUE = {{`{{ $value }}`}}  LABELS = {{`{{ $labels }}`}}
+    - alert: OpensearchClusterRed
+      expr: elasticsearch_cluster_health_status{namespace="opensearch-system",color="red"} == 1
+      for: 15m
+      labels:
+        severity: critical
+      annotations:
+        summary: Opensearch Cluster Red (instance {{`{{ $labels.instance }}`}})
+        description: Opensearch Cluster is in a Red status VALUE = {{`{{ $value }}`}}  LABELS = {{`{{ $labels }}`}}
+    {{- range $prefixes := .Values.osIndexAlerts }}
+    - alert: {{ $prefixes.prefix | title }}SizeIncreasedOverLimit
+      expr: elasticsearch_indices_store_size_bytes_primary{namespace="opensearch-system",index=~"{{ $prefixes.prefix }}.+"} / (1024^2) > {{ $prefixes.alertSizeMB }}
+      for: 15m
+      labels:
+        severity: warning
+      annotations:
+        message: Primary shard size for index {{`{{ $labels.index }}`}} has increased over the limit of {{ $prefixes.alertSizeMB }}MB current size is {{`{{ $value | printf "%.0f" }}`}}MB
+        description: If the size keeps increasing, that might indicate a problem with ISM
+    {{- end }}
+{{- end }}
