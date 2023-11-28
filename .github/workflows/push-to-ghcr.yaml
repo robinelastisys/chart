@@ -16,11 +16,11 @@ jobs:
           run:
             working-directory: './chart'
         steps:
-          - name: 'Checkout GitHub Action'
+          - name: 'Checkout GitHub Actions'
             uses: actions/checkout@main
 
           - name: Write PGP key to file
-            run: echo ${{ secrets.PGP_PRIVATE_KEY }} > private.key.gpg
+            run: echo "${{ secrets.PGP_PRIVATE_KEY }}" > private.key.gpg
 
           - name: Decrypt and import GPG key
             run: |
