@@ -33,13 +33,6 @@ jobs:
 
           - name: Package, sign, and push Helm charts
             run: |
-              for folder in $(find . -type d); do
-                if [ -d "$folder" ]; then
-                  helm package "$folder" -d "$folder"
-                  helm sign "$folder"/*.tgz --key 2ED9B70C5762943C
-                  (helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }} || true)
-                else
-                  echo "Folder $folder does not exist. Skipping..."
-                fi
-              done
+              for folder in $(find . -type d); do if [ -d "$folder" ]; then echo "Processing folder: $folder"; ls -la "$folder"; helm package "$folder" -d "$folder"; helm sign "$folder"/*.tgz --key C43688EB8D4FD8085C26AF512ED9B70C5762943C; (helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }} || true); else echo "Folder $folder does not exist. Skipping..."; fi; done
+
 
