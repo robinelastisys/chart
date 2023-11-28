@@ -19,13 +19,14 @@ jobs:
           - name: 'Checkout GitHub Actions'
             uses: actions/checkout@main
 
-          - name: Write PGP key to file
-            run: echo "${{ secrets.PGP_PRIVATE_KEY }}" > private.key.gpg
-
-          - name: Decrypt and import GPG key
-            run: |
-              echo "cl34rsky" | gpg --batch --yes --passphrase-fd 0 --decrypt private.key.gpg > private.key
-              gpg --import private.key
+          - name: Import GPG key
+            uses: crazy-max/ghaction-import-gpg@v6
+            with:
+              gpg_private_key: ${{ secrets.PGP_PRIVATE_KEY }}
+              passphrase: ${{ secrets.PASSPHRASE }}
+          
+          - name: List keys
+            run: gpg -K
 
           - name: Helm Registry Login
             run: helm registry login ghcr.io -u ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
