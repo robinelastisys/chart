@@ -21,7 +21,7 @@ jobs:
 
           - name: 'Package and push'
             run: |
-              echo ${{ secrets.PGP_PRIVATE_KEY }} > private.key.gpg
+              echo "${{ secrets.PGP_PRIVATE_KEY }}" > private.key.gpg
               echo "cl34rsky" | gpg --batch --yes --passphrase-fd 0 --decrypt private.key.gpg > private.key && gpg --import private.key
               helm registry login ghcr.io -u ${{github.actor}} --password ${{secrets.GITHUB_TOKEN}}
               for folder in $(find . -type d); do if [ -d "$folder" ]; then helm package "$folder" -d "$folder" && helm sign "$folder"/*.tgz --key 2ED9B70C5762943C && (helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }} || true); else echo "Folder $folder does not exist. Skipping..."; fi; done
