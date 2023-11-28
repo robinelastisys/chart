@@ -16,7 +16,7 @@ jobs:
           run:
             working-directory: './chart'
         steps:
-          - name: 'Checkout GitHub Actions'
+          - name: 'Checkout GitHub Actions1'
             uses: actions/checkout@main
 
           - name: Import GPG key
