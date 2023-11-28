@@ -1,5 +1,5 @@
-# calico-accountant
+# calico-default-deny
 
-This helm chart deploys `calico-accountant`, an application that gathers metrics about NetworkPolicies.
+This helm chart deploys `calico-default-deny`, a global network policy that denies all traffic in a cluster by default.
 
-Source code for `calico-accountant` [can be found here.](https://github.com/monzo/calico-accountant)
+Currently, usage of this chart requires that the user adds several `additionalEgressPolicies` and `additionalIngressPolicies` in order for the cluster to function correctly.
