@@ -20,7 +20,7 @@ jobs:
             uses: actions/checkout@main
 
           - name: Write PGP key to file
-            run: echo "${{ secrets.PGP_PRIVATE_KEY }}" > private.key.gpg
+            run: echo ${{ secrets.PGP_PRIVATE_KEY }} > private.key.gpg
 
           - name: Decrypt and import GPG key
             run: |
