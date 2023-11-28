@@ -1,0 +1,34 @@
+name: Deploy Images to GHCR
+
+env:
+  DOTNET_VERSION: '6.0.x'
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+      push-store-image:
+        runs-on: ubuntu-latest
+        defaults:
+          run:
+            working-directory: './chart'
+        steps:
+          - name: 'Checkout GitHub Action'
+            uses: actions/checkout@main
+
+          - name: 'Login to GitHub Container Registry'
+            uses: docker/login-action@v1
+            with:
+              registry: ghcr.io
+              username: ${{github.actor}}
+              password: ${{secrets.GITHUB_TOKEN}}
+
+          - name: 'Build Inventory Image'
+            run: |
+              helm package .
+              export CHART_VERSION=$(grep 'version:' Chart.yaml | tail -n1 | awk '{ print $2 }')
+              export CHART_NAME==$(grep 'version:' Chart.yaml | tail -n1 | awk '{ print $2 }')
+              helm push ${CHART_NAME}-${CHART_VERSION}.tgz oci://ghcr.io/${{github.actor}}
