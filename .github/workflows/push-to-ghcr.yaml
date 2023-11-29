@@ -27,7 +27,7 @@ jobs:
           
           - name: export PGP Private Key
             run: |
-              echo ${{ secrets.PASSPHRASE }} | gpg --pinentry-mode loopback --batch --passphrase-fd 0 --export-secret-keys > ~/.gnupg/secret_keys.gpg
+              echo ${{ secrets.PASSPHRASE }} | gpg --pinentry-mode loopback --batch --passphrase-fd 0 --export-secret-keys 44CDE64D4E0146802CF49A83A75EE2596230A945 > ~/.gnupg/secret_keys.gpg
               gpg --list-keys --keyring ~/.gnupg/secret_keys.gpg
 
           - name: Helm Registry Logi
