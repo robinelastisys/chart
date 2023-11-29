@@ -28,6 +28,7 @@ jobs:
           - name: List keys
             run: | 
               gpg -K
+              gpg --version
               gpg --export-secret-keys >~/.gnupg/secring.gpg
 
           - name: Helm Registry Logi
