@@ -28,7 +28,7 @@ jobs:
           - name: export PGP Private Key
             run: |
               echo ${{ secrets.PASSPHRASE }} | gpg --pinentry-mode loopback --batch --passphrase-fd 0 --export-secret-keys > ~/.gnupg/secret_keys.gpg
-              cat 
+              gpg --list-keys --keyring ~/.gnupg/secret_keys.gpg
 
           - name: Helm Registry Logi
             run: helm registry login ghcr.io -u ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
