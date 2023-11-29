@@ -25,15 +25,16 @@ jobs:
               gpg_private_key: ${{ secrets.PGP_PRIVATE_KEY }}
               passphrase: ${{ secrets.PASSPHRASE }}
           
-          - name: List keys
-            run: | 
-              gpg -K
+          - name: Import PGP Private Key
+            run: |
+              echo "$PGP_PRIVATE_KEY" | gpg --import
+              echo "$PASSPHRASE" | gpg --batch --passphrase-fd 0 --export-secret-keys > secret_keys.gpg
 
           - name: Helm Registry Logi
             run: helm registry login ghcr.io -u ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
 
           - name: Package, sign, and push Helm charts
             run: |
-              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key F4A29E8E41AD41F9DE9CF821AB32EB27336B2CE4 --keyring ~/.gnupg/exported_secret_keys.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
+              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key F6F8CA2E185E26E9E74748E3C2A56CF6BDD39E48 --keyring ~/.gnupg/secret_keys.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
 
 
