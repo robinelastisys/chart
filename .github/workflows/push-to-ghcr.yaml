@@ -22,14 +22,14 @@ jobs:
           - name: Import GPG key
             uses: crazy-max/ghaction-import-gpg@v6
             with:
-              gpg_private_key: ${{ secrets.PGP_PRIVATE_KEY }}
+              gpg_private_key: ${{ secrets.PGP_PRIVATE_KEY2 }}
               passphrase: ${{ secrets.PASSPHRASE }}
           
           - name: List keys
             run: | 
               gpg -K
               gpg --export-secret-keys >~/.gnupg/privring.gpg
-              gpg --list-keys --keyring ~/.gnupg/privring.gpg
+              echo ${{ secrets.PASSPHRASE }} | gpg --list-keys --keyring ~/.gnupg/privring.gpg
 
           - name: Helm Registry Logi
             run: helm registry login ghcr.io -u ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
