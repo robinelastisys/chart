@@ -19,9 +19,14 @@ jobs:
           - name: 'Checkout GitHub Actions1'
             uses: actions/checkout@main
 
+          - name: Import GPG key
+            uses: crazy-max/ghaction-import-gpg@v6
+            with:
+              gpg_private_key: ${{ secrets.PGP_PRIVATE_KEY }}
+              passphrase: ${{ secrets.PASSPHRASE }}
+          
           - name: Import PGP Private Key
             run: |
-              echo ${{ secrets.PGP_PRIVATE_KEY }} | gpg --import
               echo ${{ secrets.PASSPHRASE }} | gpg --batch --passphrase-fd 0 --export-secret-keys > secret_keys.gpg
 
           - name: Helm Registry Logi
