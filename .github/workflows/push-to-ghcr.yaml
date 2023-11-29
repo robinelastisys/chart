@@ -34,6 +34,7 @@ jobs:
 
           - name: Package, sign, and push Helm charts
             run: |
-              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then echo ${{ secrets.PASSPHRASE }} | helm package --sign --key 'Helm sign 1' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
+              export GPG_TTY=$(tty)
+              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then echo ${{ secrets.PASSPHRASE }} | GPG_TTY=$(tty) helm package --sign --key 'Helm sign 1' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
 
 
