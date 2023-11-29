@@ -29,13 +29,13 @@ jobs:
             run: | 
               gpg -K
               gpg --version
-              gpg --export-secret-keys >~/.gnupg/secring.gpg
+              gpg --export >~/.gnupg/pubring.gpg
 
           - name: Helm Registry Logi
             run: helm registry login ghcr.io -u ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
 
           - name: Package, sign, and push Helm charts
             run: |
-              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key C43688EB8D4FD8085C26AF512ED9B70C5762943C --keyring ~/.gnupg/secring.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
+              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key C43688EB8D4FD8085C26AF512ED9B70C5762943C --keyring ~/.gnupg/pubring.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
 
 
