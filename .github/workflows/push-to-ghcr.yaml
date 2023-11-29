@@ -22,7 +22,7 @@ jobs:
           - name: Import GPG key
             uses: crazy-max/ghaction-import-gpg@v6
             with:
-              gpg_private_key: ${{ secrets.PGP_PRIVATE_KEY2 }}
+              gpg_private_key: ${{ secrets.PGP_PRIVATE_KEY }}
               passphrase: ${{ secrets.PASSPHRASE }}
           
           - name: List keys
