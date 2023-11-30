@@ -44,12 +44,12 @@ jobs:
                       # Perform Helm packaging for the current directory
                       helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg . -d . && helm push ./*.tgz oci://ghcr.io/robinelastisys
 
-                      # Move .prov files to a 'provs' folder in the root directory
+                      # Move .prov files to a 'provs' folder in the current directory
                       shopt -s nullglob
                       files=(*.prov)
                       if [ ${#files[@]} -gt 0 ]; then
-                          mkdir -p /provs  # Create 'provs' folder in the root directory if it doesn't exist
-                          mv ./*.prov /provs/
+                          mkdir -p provs  # Create 'provs' folder in the current directory if it doesn't exist
+                          mv ./*.prov provs/
                       fi
 
                       # Move back to the previous directory (optional)
