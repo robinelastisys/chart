@@ -38,10 +38,22 @@ jobs:
 
               for folder in "${folders[@]}"; do
                   if [ -d "$folder" ]; then
-                      helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys
+                      # Change directory to the current folder
+                      cd "$folder" || continue
+
+                      # Perform Helm packaging for the current directory
+                      helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg . -d . && helm push ./*.tgz oci://ghcr.io/robinelastisys
 
                       # Move .prov files to a 'provs' folder in the root directory
-                      mv "$folder"/*.prov /provs/
+                      shopt -s nullglob
+                      files=(*.prov)
+                      if [ ${#files[@]} -gt 0 ]; then
+                          mkdir -p /provs  # Create 'provs' folder in the root directory if it doesn't exist
+                          mv ./*.prov /provs/
+                      fi
+
+                      # Move back to the previous directory (optional)
+                      cd - || exit
                   else
                       echo "Folder $folder does not exist. Skipping..."
                   fi
