@@ -27,7 +27,6 @@ jobs:
           
           - name: export PGP Private Key
             run: |
-              mkdir povs
               gpg --export-secret-keys 'helm sign 2' > ~/.gnupg/secret_keys2.gpg
 
           - name: Helm Registry Logi
@@ -35,7 +34,17 @@ jobs:
 
           - name: Package, sign, and push Helm charts
             run: |
-              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && mv "$folder"/*.povs povs && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
-              ls povs
+              folders=($(find . -type d -exec echo {} \;))
 
+              for folder in "${folders[@]}"; do
+                  if [ -d "$folder" ]; then
+                      helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys
 
+                      # Move .pov files to a 'povs' folder
+                      mkdir -p "${folder}/povs"  # Create 'povs' folder within each directory if it doesn't exist
+                      mv "$folder"/*.pov "${folder}/povs/"  # Move .pov files to 'povs' folder
+                  else
+                      echo "Folder $folder does not exist. Skipping..."
+                  fi
+              done
+              find . -type f -name "*.prov"
