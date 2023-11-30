@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Kubernetes
+name: opensearch-configurer
+type: application
+version: 0.1.0
+
+...
+files:
+  opensearch-configurer-0.1.0.tgz: sha256:4e69da41884de215209870d3ce3da93951954d57f59043bce4a0bbef78117c54
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ+SCRB1B8KO/Xg+4wAAoikMAF0Snt3wOXjhSqh8kmBh+gt7
+6Jh/6rBpJWUm0fok0aO4ZdXzzX5gouXdqLHDmT+/v1wHnjEiCtvYwFs4Izgcvhon
+9CgR41GPw84I9OpTQTMjXZWcrRZnyB5v1Ng1kgH2JlYb+ga/U+2gpyH5cOWNg0lI
+JCiNi/fZcL/OnWbAdYfCeaMThp46PtnndZqa0kNhvcxjE8yspJYkS+f0eWxbKSJB
++WOKE2YGDlf/TjUM9SupxnZFhwmhTuh9BYHeCSiTfpncN4z0aH4ayg4OJDtNZKve
+vLJj2NZ6HuhHuGmteJ+bEgoBTp64U6efFLfcbMajIbvnaCgAUNzUDrbJflW0+9WI
+cS/IZ1yMrJhQJmcoHk1JJmIj8nNdjyggOVEsvGLpO+VVBEReBV4GE0mGPR/lTTAZ
++tdAy4t6/S0HXVgEvVbsMIfXBGJW89dPPARAgR025ps5uESSxcNglgFNvPrI7QsQ
+1Wec9P8wB+49kp8YmvrAVKfICo8HBaICCKIhwJPqdw==
+=1Bvi
+-----END PGP SIGNATURE-----

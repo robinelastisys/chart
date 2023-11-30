@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+name: init-harbor
+version: 0.2.0
+
+...
+files:
+  init-harbor-0.2.0.tgz: sha256:b897550cd4e4daf15895015fef3ac0bdf6841dac085aab8cd9fdd5e21f1a5652
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ+ECRB1B8KO/Xg+4wAA/WAMAF1D2U2k9LuMzQI4nSRCyU64
+xCy43ejXoJQQq9KgxGrooTY3R5PksnwoOjduHiQcye2dWfBSuwp/iz5UtXedSzwa
+mCMEiM89LZ9oC8tikM246vlA45fw65lljSpFPV4ysHnydTD6dwAfLpPnsff6t0D8
+yYTQxo4A6dFrxx/4Cm0k7GKUz75uDqQSbYwILrld/sOeBQ8Lelrm03hXlOhpSWwO
+r3SpiKo7FCUaGmWR8da6+8emUjk0kCKcz9vJijfoWJBSdkXcE3G62KC3CaMx6uHy
+MfFdxq5zPZVctfGRJ2Jq2F/O4RisOq3c0y7hjyD5EIbFwLqzQKdc5hcYctcJg3iC
+ssRXxU+hHWbCp05ODAbmE25KRj4kc3hzs0p6GnHt79Dv3gEWLuXXQX2n/qIWBtsl
+rmdP5Et+k1Dfzxayf+JjwKHFy/CIijCQZRrhRN1EqGXZcAr930cRIffJZrHvsAvJ
+WmVowRiK9dhmST5tuMwgrCaGKnezifZt7zipBesRRA==
+=zBPC
+-----END PGP SIGNATURE-----

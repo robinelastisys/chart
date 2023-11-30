@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: This chart will contain the Network Policies for service cluster.
+name: networkpolicy-service
+version: 0.2.0
+
+...
+files:
+  networkpolicy-service-0.2.0.tgz: sha256:ca042f67beca5e906b8a14b4464c98522ca2b326dbfa4560e80ad33508bb7f8c
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ+VCRB1B8KO/Xg+4wAAOYUMAK60lM8v2UvwwvzKExJBL4GI
+pgFmSb5Y3M4vSwDwdIhPTfKv99Vgjv5r2tBwW8WD4ud3/YSBJpTX1wiw0PGv9a2s
+ZTeODD5F+rdqNXvaYV7O+rYQkFLUp7aOo+EFKaFf4tccjkrjN9O+XSH+d0wiM4aX
+lyEsGU6srLPjKWrc8lPi8oVaOQ4syLInFZMdYhWn9eCfJHPfI9pFescst4+5+THM
+BuBgakz4Bebt3e5SiFR8hw1aTjrQbc6pkZYGobWgd12qsdGV+VRgQW6iPcIy3kte
+4Nk+X3DjOL6GPdyzR0GU7VLMhEUEBu/++SMK0eHr0xEfHRZNuIU9QULUvxpA/4fU
+sqw8yXK6WuCXLMHrY4ReMJfrkkgZtgPeHxwucMghyTumCquQ4kB3pjM4ZR+EUTCh
+V2+PrjaY0U9tZobuu0A1AltUmrlUxpJBn39mEFdMPT8q0OVDFkEsmcSMPQLoCc/K
+hO5fZwaiBe7S6YtrFBpdXj16/SUrEd5FSgx/ssRgaw==
+=bJZZ
+-----END PGP SIGNATURE-----

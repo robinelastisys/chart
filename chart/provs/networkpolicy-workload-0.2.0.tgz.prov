@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: This chart will contain the Network Policies for workload cluster.
+name: networkpolicy-workload
+version: 0.2.0
+
+...
+files:
+  networkpolicy-workload-0.2.0.tgz: sha256:d93737c1a936eb38e7da3fa8f95f04a4cfe16a4fb263d3a2c021a9879fa93122
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ+ZCRB1B8KO/Xg+4wAA2BsMAAqN9js9j/OCn+wP1gVRwLDB
+0DUhC5VCjiumMQit7Fmd6ZUTloFrnBB6NupIT4e1+XYvBU5/YGvYGFkBZPOx2zWi
++9rEw4TA411N8XuHRHuz9ds2gsEgYYY9bDwrMZRJLyIzXUqMI8bsMMGd/FosF8m7
+Q8S7sEvdqKYZqXbBbbXqD4IzcjL7SbLXzfUf9RCVU36ycMMxCYl2+q+jpVn6QH7s
+sp+lgZjBHE8sq7Cb+9QG5FB8bPAAPU6XX+MXmPZ2/np37797/3TAbR2PmAsBSRS4
+ZjCT7spMEnaqUmufJg1oBzA1HphaYIaHMo1RJjsS6H+cLW5UJDAWIDpQOlxsaXNo
+u9zh82J1ZYR5uCbsk5sj2TuWADlkEipFippeCATjYcUpY324gT6RNNw6CuZRhJWS
+fHKtX4XoCEGhG0NHUx+qXoQpC9ozbqcK725kmpjBJh57iNqxPUF0krZwIaxiMuC9
+0Z0FoUqqC0K0qo7PvNAvUM67If8HtTokxsrV/50ccw==
+=9zDM
+-----END PGP SIGNATURE-----

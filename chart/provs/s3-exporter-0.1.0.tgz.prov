@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.5.0
+description: 'A Helm chart for s3_exporter: https://github.com/ribbybibby/s3_exporter'
+name: s3-exporter
+type: application
+version: 0.1.0
+
+...
+files:
+  s3-exporter-0.1.0.tgz: sha256:090676dab6512f415cc3f4812e87281d484d68db1c115530f73f40376142cb2e
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ9wCRB1B8KO/Xg+4wAAZP0MAIGoKV9h2Rdoa2X+jbjt2J7t
+UBfMLBtiWfuyn3iApq7YgPmLntV5W20m2WB9GwUX/6MlLIyGNMlJ9DyiSlXY2ocj
+JdJvRNPxlubSsykHpuAA9lnOrDuwDO2PsGEbwDDRixNr/SSAAy97n4twPD8ZW6YK
+NeHMJrndMN5Try9hHLFbZM5Fkkkw2OMo3uUp6UV3yXzeYI+acR7uUEjKwYEiSm0E
+N/GL+ll/N6a/bnoYfRTZOmf0Ktme/woqCh/sEnD2fAyawATBAckMFceaPp3bO6VH
+NklAWOnITX9ZeQm4blugJ+f6q5A5fmzMmi2g+zpNdb4uMkROtOl+1Z609iOJ4JqN
+9HjUSoTUw+3CR5WX8/5fL6GGOBuS6cJ4W2zYsuBuFmT0caJhORAMss3HBcz3yLBV
+swbVbDIuCCL7dBJ5pevZ2tAOQbyfI0I/9zuizAs5i4Mw3x5mv5ZgWuZn7Vlwn0yj
+zVdSxnLqcY7YUfV7VcVcpTkO4XGET9/x6kIxLMvEyQ==
+=5uA1
+-----END PGP SIGNATURE-----

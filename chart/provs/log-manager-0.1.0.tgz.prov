@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.2.0
+description: log manager for Compliant Kubernetes
+name: log-manager
+type: application
+version: 0.1.0
+
+...
+files:
+  log-manager-0.1.0.tgz: sha256:000367bbffae3a49e205197f6e919d67e34fffe9a5213ebad058eaba97e4e10d
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ99CRB1B8KO/Xg+4wAAtj0MADqIgAv2LKabABzXvmxEFRJ9
+VSrsOpb6kvkvEosN88xtNoSqd5v4bFfxGXEkjdont7z4wHNFmxq17OdNQeDuE0Ac
+2zoHLQNnNhpyKRIglPHwuVcirSaHad0cEkncujfSOQSLOIPq6hK409g9v96t8E32
+NWs/DTWP9i0vCPQwTxvPtxTKKzSvJUQHUydAdjtg61CUztxEqED9V9Rh0lkcYeZX
+e+Xs7w12Li9VHOtoNWfURjqeQoVuS1l9ippy2uv2S8ySwhOvbrcsfHjCy6Q9uil3
+UeqGOwr5iM9McqDoE43KAFHX2enBFDOk1mB/HQZFfdFVR5hmghgvfiePo2l0aldd
+HH0C3y3ArOf+S5O1/1iMzjGnckZ3sUh9SSDnrK/Ol1u1vTxLt4O7oMuvr77NYac0
+a1sqBDhx65kzONv/McN7VocXj20MVh3egS6GoJZ6hEEJ7E25/xx+uTz9nncCv8Ve
+yvnBHIyPuhbBZnKNGQ0s1bTB6rAY1YY1nISGSpTiEA==
+=qJmM
+-----END PGP SIGNATURE-----

@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A helm chart containing various gatekeeper mutations
+name: gatekeeper-mutations
+version: 0.1.0
+
+...
+files:
+  gatekeeper-mutations-0.1.0.tgz: sha256:ba80c26bf9e27d18abaeb51fd496c7a8e296eaebd6d1fba59456a5234c1d79d7
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ92CRB1B8KO/Xg+4wAAUOEMADucuriTb7cjhkAAGjPgrhFG
+eVkBieTwDIJ5UK9+/1Jg4KtEe3B3AfVZhYpgww1bpYWHgP7jLUZir8a5IPJqMJdE
+a9gWSxBBKV5BvSpMn89qAHf9nMUe2ysRbD/VtDxKFxSLIXzJ8hGY5LCUvuq4jyz1
+BSx+Ac6YTOnjdN4PdU3RhF/up+3VSdZFQIyvdFy5kNZEKkGMFb2gW9tayTo157Ug
+r038pFt7iA0p71Oe6vDyc7FupGcxqaRkKFTQDoqZCvtF+7f+Isx12zDcm7JM7tIY
+xtVt+kGb7gGHes7P0jT2LmhdQvxrN0bkAzrt45KzIlB00GItW06V/W3YmVjR51Sc
+SN/oo0DwJilKkVhX8NqQCHEv2QJcgP1gkZl8ldCACnwJUUAdQ0zhJIdPpHMFzG2v
+yBP6xKa1sB7htpPah1Zm2ZTEUs+gvdg4eTpMBSL+saupaliFoZBlwEcMirgfxScb
+1FxZk0jDa7NvFRZsXjU0+EdqHCIuHQIaezp7pTSuuw==
+=9DXb
+-----END PGP SIGNATURE-----

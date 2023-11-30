@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Kubernetes
+name: opensearch-backup
+type: application
+version: 0.1.0
+
+...
+files:
+  opensearch-backup-0.1.0.tgz: sha256:10f50c09f81199dd172dd502dc0949f65c7fd91ad05f46a4012d2c9101eda522
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ+NCRB1B8KO/Xg+4wAA81MMAEd+JDSyPB14YjIarNd4ey0z
+H60zPP+jM2sxJd7KGdWOMQxkJGjP4UPevZidP1VifxL4zaJYSjPw8YvreH/iopBd
+hxIXiWN/9AofyiYdtYeiUJWPcnbw8GIIiNAmX4WFHO8Thr+BheNCOT1g2W1Ojagx
+iEuEveJLETrwlU2VfvMgS6pIBhffWajI+RL4izVPm7TqtDSLy4zsXxZrEYv7voY5
+EgkRHhEOSfawocOvEuSQox2zOUt+rBDOqQzAHxZiu63kTEBJ5Fpxjt+6Wh4KWiER
+K4thFjbZvvfYaGH0YLynIFQszta6Lb433H34BU8hk0Y3EGjQ6qKKp8HMOUlfBFKz
+P7YV6vd7Mvf7aS0lRfhB1vQFhYm1g9QzuiJQO2RqRo8DgBg71nMJ7cU46JrtkWvu
+fVZxgcJ3VfCO9AG+K+V5BiZyKeXhrCn4QSZHLRx8/g7skSW4VpqVNsJ7RWDLTy1P
+M01fq2Ql6NOTYrb92PHMnbjLXX8Iv3z8Hqjgf5z7uw==
+=7DDo
+-----END PGP SIGNATURE-----

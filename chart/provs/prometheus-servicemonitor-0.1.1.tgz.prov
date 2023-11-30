@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for the prometheus-servicemonitor in both the wc and sc
+  cluster
+name: prometheus-servicemonitor
+version: 0.1.1
+
+...
+files:
+  prometheus-servicemonitor-0.1.1.tgz: sha256:08152c8e47ccbfb2bf958359fc5ee71ee37d41d3898ce3df8f7335fbaeccb7d2
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ9/CRB1B8KO/Xg+4wAAVogMAEIsDFWWjKSGT+ZSDl6pbReR
+gG/LQdD9e+wlj0B7u1Y5nakvGjYMkXN8aYcKN5v3PEgogM5Js/M2AZ5HeRYcleJe
+62nVpEEtUKDAel0op2fc8HdWNgeH+eoiPepSGw0N7gMvCRv5cOc2Sh+dEMp4RJWl
+P3gorMm8vJdTLeUzMzu3QNqeRggjKlCgnxTrqM3npckPKPqTOtInqiLoKo9RLtAp
+q/QXQwPxiiNVyGlbTbDP/KZ1DF5C4xJUpVog2i7QR0a6mjzuIYyNw9qd48rNZT07
+v+YKYVDSxgCQ1jzXlNVJAfE7q0U8HHNANM/hK4fdBQyRuRC8avXvqdzk+7whBfm7
+f6nR0tlT/OA/0FGfigoYQ8tTVYLH6TNXejhbO7w3PEzy7jXJrvOzOi9cTsfJvgdw
+7mhQvvfrrFaA72q87HfikI6KOU+oDDv2zpgVP1Cbzxxbpjow+j8/hAdPyWfpDvKS
+Yz2WI7cr+3BvaygGo8Nz+TtayUjwjU4fe6YCEAX6dQ==
+=OSLg
+-----END PGP SIGNATURE-----

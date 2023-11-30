@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: generate networkpolicies with simplified, stackable, and reusable definitions
+name: networkpolicy-generator
+type: application
+version: 0.1.0
+
+...
+files:
+  networkpolicy-generator-0.1.0.tgz: sha256:514d0ad3222168ba7a019dcff8b78e238536571179223dab5e0a6a812fd72d93
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ+bCRB1B8KO/Xg+4wAAVmcMADWS6z/XEYr7Ts/ndwC5T657
+l0ZC4/nOL+0+pbENPfI8rtNqGUaFneWTis4Ld+Iv0rxHJjmCdIhdr9bFmvEKXFgM
+dmD1TCxeTBJ+aMzR3bO13LpWT9zxo9edWab/vr8E3Y8s4NuvyePJQjtj9kTEP1Se
+AGKWE2x9kW72aR9h9OF+tSLqsq/b7kGoQXZEaX5vgZBMDky25Dx7hP82gNw/rZfh
+Z+TaO96+OgqQZReFOiMDgKUMEtkj9r2GfSH/MgWMXAuy9VDK1AfgykOAQuH+G5w1
+2pxWk19tNsPO61i7M9wWYBPeWizdqxlVQgS2BCAg0ow6vO+8+Ax246b4PB1hoWif
+ig20tHCggB9N6R4cX8vQoQtu/sgelVjJhuSpi4eofGra0+Gzl0RQe+S/WB54uleP
+x5QM01xCSpGghJeZe+3zn9Bf3X1s1Aq9OmmtX6x1CIMuoJ33pcWO1R3Bz/hbxo24
+oZ8R2owQBHYuNpMWP0sSW64rahXy/Tx8zaacbjK7pQ==
+=d7Ia
+-----END PGP SIGNATURE-----

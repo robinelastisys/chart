@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for calico-accountant, see https://github.com/monzo/calico-accountant
+name: calico-accountant
+version: 0.1.0
+
+...
+files:
+  calico-accountant-0.1.0.tgz: sha256:a355f9f9be515133011beb47d1eb3daaa14fa3a30975e18293a3c9b3639b16eb
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ9xCRB1B8KO/Xg+4wAAWgYMAIHdDV6+OQy8MzHslz/TIFox
++b10gjxYijQ+uMAQy3FSWXvd1BYwtk5hVU/QwixUb0+lIDy3ypkD3KjvF+P803pf
+DRyd60lojGTEEIvBJr2JGMQ+biowENPRZP6WudKRGLmHMRVFMtZxJl2noL7Kt4AG
+Vf6JCE9McNnIsOp2LlHLlSMkSV/3oN46jm1Y1Ce0Jvf3aHr+GKPblYU6EotjjcFf
+D7Qtj3zsoCjDyjuf7Pht2z62ziFkZwQwoJltqMSNs/ae4OHpOhZEdp1gaiGqCj+U
+do42XN7leMTc6Tzfy7G2akSbc8b9CVnOoFyM/xsIKDUee5XIcu8eUiKj2GHYU5tS
+l8nwjtj592idjmooebRWwpQBDMdFdYMchiHlSnI4jh9qZnqoxPIIcMO0wfNQbcwM
+dB9WEYSCAPKvjrry+c6OdFjmu/uHutJofEVdvrGp6z4la5+P8CFqD8f4rogHwPjY
+mWbCQODRpcSD1Q5YqzxRD1enxswlupgdgPXFMc3BBw==
+=LCvz
+-----END PGP SIGNATURE-----

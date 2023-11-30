@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Kubernetes
+name: opensearch-curator
+type: application
+version: 0.1.0
+
+...
+files:
+  opensearch-curator-0.1.0.tgz: sha256:992a4cc42e8c5f837a0663d02538d8468ae03e66f9fc188b01681d4406400285
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlaJ+MCRB1B8KO/Xg+4wAAaD8MACxrV95Ahp4Wl7tye/owoO2M
+8gRkDK2yGFQmWgFwp9duRAOP6QzbbFKCHkDas9eT+vLaQcvi4g9dK4yNKdGPNnDe
+6/Yl7FU0TXE2TPw8QICD7rmK5bcilc4u2+Vzo30muhJzDg8EFWcfeo3HJAsusYZ1
+a/Tl1iUXhM/DTYQT9X8vN06WCRWUpeIUnbcVGZfCziCi9EdlFttJGC1UKuXNvTvz
+KRawZeiLCFgoRT0kr52btTMFjNy7Y+BBRmnKmDLN8/GBjQZzsMct0o29qfnYgzQz
+WiLKBt4C2Ivtwrm1xKnMEaYkAWDeN1UR2QPN2MNqIhIsypLcQ7eNKZg6MZCJGQJn
+iAl/Xy8A5F/qe6s/DWFW2ZadXsJTVl/oZ4FZg0uSKR3zd4t/eedWkbwAnJClgIp2
++Ch81ztuFhMvTMrcuPVPn3bThjcW1Y9dIWzSBR7SYfqfC948b5BsjT9LTr/N+zf7
+/l0yXo6HfD5dVTc0ewXYwxaBamVR+4FJ+prh5ghOSg==
+=dEq5
+-----END PGP SIGNATURE-----
