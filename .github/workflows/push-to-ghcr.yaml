@@ -37,7 +37,8 @@ jobs:
               folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
               sleep 10
               find * -type f -name '*.prov' -exec cp -n {} provs/ \;
-              ls provs/
+              git config --global user.name 'robinelastisys'
+              git config --global user.email 'robin.ramquist@elastisys.com'
               git add provs/
               git commit -m "provs update"
               git push --force 
