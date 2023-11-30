@@ -23,23 +23,17 @@ jobs:
             uses: crazy-max/ghaction-import-gpg@v6
             with:
               gpg_private_key: ${{ secrets.PGP_PRIVATE_KEY }}
-              passphrase: ${{ secrets.PASSPHRASE }}
+              passphrase: ''
           
           - name: export PGP Private Key
             run: |
-              echo ${{ secrets.PASSPHRASE }} | gpg --pinentry-mode loopback --batch --passphrase-fd 0 --export-secret-keys 'Helm sign 1' > ~/.gnupg/secret_keys2.gpg
+              gpg --export-secret-keys 'helm sign 2' > ~/.gnupg/secret_keys2.gpg
 
           - name: Helm Registry Logi
             run: helm registry login ghcr.io -u ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
 
           - name: Package, sign, and push Helm charts
             run: |
-              folders=($(find . -type d -exec echo {} \;))
-              for folder in "${folders[@]}"; do
-                  if [ -d "$folder" ]; then
-                      echo "${{ secrets.PASSPHRASE }}" | gpg --pinentry-mode loopback --passphrase-fd 0 --batch --no-tty --yes --command-fd 0 \
-                          helm package --sign --key 'Helm sign 1' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys
-                  else
-                      echo "Folder $folder does not exist. Skipping..."
-                  fi
-              done
+              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
+
+
