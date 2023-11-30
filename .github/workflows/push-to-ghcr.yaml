@@ -38,6 +38,7 @@ jobs:
               sleep 10
               find * -type f -name '*.prov' -exec cp -n {} provs/ \;
               ls provs/
+              git status
                
 
 
