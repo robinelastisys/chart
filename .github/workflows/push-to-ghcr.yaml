@@ -40,9 +40,15 @@ jobs:
                   if [ -d "$folder" ]; then
                       helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys
 
-                      # Move .pov files to a 'povs' folder
-                      mkdir -p "${folder}/povs"  # Create 'povs' folder within each directory if it doesn't exist
-                      mv "$folder"/*.pov "${folder}/povs/"  # Move .pov files to 'povs' folder
+                      # Change directory to the current folder
+                      cd "$folder" || continue
+
+                      # Move .prov files to a 'provs' folder
+                      mkdir -p provs  # Create 'provs' folder within the current directory if it doesn't exist
+                      mv ./*.prov provs/  # Move .prov files to 'provs' folder
+
+                      # Move back to the previous directory (optional)
+                      cd - || exit
                   else
                       echo "Folder $folder does not exist. Skipping..."
                   fi
