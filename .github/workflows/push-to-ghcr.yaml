@@ -42,6 +42,3 @@ jobs:
               git add provs/
               git commit -m "provs update"
               git push --force 
-
-
-c
