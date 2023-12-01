@@ -11,17 +11,17 @@ version: 0.1.0
 
 ...
 files:
-  autoscaling-monitoring-0.1.0.tgz: sha256:f416bc064354c06d7b69d35c08417b5d55e9bc94f80bcdeb5838d01eead72c7b
+  autoscaling-monitoring-0.1.0.tgz: sha256:fb255bfc44d92d428b59e851971add50a0834e5e3c11bf294d57dd4e2435f399
 -----BEGIN PGP SIGNATURE-----
 
-wsDcBAEBCgAQBQJlacbaCRB1B8KO/Xg+4wAA06QMAH+lxsVYF++hhIZuy1NtX2R0
-3hNqqdU16xFZRpmJMkaGLLIki8f6WhnwG4Sg8yImqj+JNsbJF5YHMdrv+6mgtFdX
-G+nPqMpFMyKLC/WYBGDbQmT1y1Ydt6rSfrWu/XQI2I72Hih9vd6fjBXMcSDFAVUo
-fxSzZTzuZqB4OBAx8u85dyM4pDqE6ZIy1XZY8h/RPc38QQrx/Z8kt9+rTDVdtjmd
-q/iKgh3vjnP3WNR/SU6oxi14rmU+17eJk3Q5FTZSU4OvWHVNpLqGmpqb/B+DZUve
-UGR4u1YoTvfpSxcYVzl9pVnUBLuYjGpFfTyy1hg0nZJNLkpEQ9bMcmaB5lvqPbXN
-+E00JhsrH0D1d2k2uji26uy0SQ2dn8sG3HCnjc6M0BEHCvhHwctySmnJJLZQl3FM
-OUeUUEXxBxGWXxI4xD2m/IjjNnRQpfcPK6a78Kl54Q9bFYxLMIugoTfmqIyH/PIY
-YajD6PpGZOrDRmXmzPeiqdLYD83oDkfJUXbol+CW7w==
-=2rYL
+wsDcBAEBCgAQBQJlacs/CRB1B8KO/Xg+4wAA4isMAGToAYUVskdPEu+4ubiiGWai
+S6yB2LkS/S9ioLuR4COarUEkOTLtl++EBrKUgJ9MHhuN/COUj4duXLM0AQ5ZqlPm
+jI10AQxx4TkixdNNhjyrVTDGacNNaMdu0GvIGpveJX5Mx/PFdWqpNplY7Q4/alq5
+yUjMbfdQBFJtCFxOo9u3rX0nAZkDjJwOl9shasJ7Wo3lR+jmKQacKBeiq2hu8lkG
+xx4/csd62vsxSxBrR68yz1dF+2gUOdz5QnFbdX1RUHX+0glY0Wp/lGp1LY2mlveJ
+FqEHDiHKOglOj+4o2MNeozgcq213elZo67Dkvjhg/DfS6OEtf6PdbakSIZtallxr
+0I90UEZePhqEiiCWnbJf6xeU7Kt9eWlzjzZle0bQVf15qnoK4dfWYPSN0UpNNoOs
+gjBCm7Riaw9m7d+Bmop/vsCWH6bqlKugiy50iqSQ/jm3IyLtxOyn3qmfuNRaWyQX
+KGKYcE7u2+7Uje/zqqTFimfQr6u+DEKUGdVqv65h9Q==
+=u1p5
 -----END PGP SIGNATURE-----

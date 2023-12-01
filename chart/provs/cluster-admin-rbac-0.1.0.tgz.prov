@@ -9,17 +9,17 @@ version: 0.1.0
 
 ...
 files:
-  cluster-admin-rbac-0.1.0.tgz: sha256:c3a37440fb3d6f8b5ae6c360058bc00aabd7cd34ba2f26593d0cf1e7df1b31f2
+  cluster-admin-rbac-0.1.0.tgz: sha256:3ef86ddb8c4f2c6e5cf8e561a4e9e578f8e910f8c81fbfad18f62a5f180b6af8
 -----BEGIN PGP SIGNATURE-----
 
-wsDcBAEBCgAQBQJlacbxCRB1B8KO/Xg+4wAAE3wMAAsUrDAkqDpHsb7qodqI6PFl
-IohreQ7XfbaeIPkjLbWCQbM5dZNb6VWQbE41c4SAMLZORDfj9mckdpPLC0e26IaX
-uH0sUHZ7PBm8amtB2TFuedO5+orpnTI2Bo0w3qD/uUMfMZWa46fJpyp9LogIoaF7
-yrrPodDNtj9pyJzc3fExqQ3azY/wnTweS02hvUfZr0crzZRvO+wv9wtN9aQNcpIf
-FFOmDWwDN64im3gBeYpQYvhpQ6LAsqRc8OwCKsaasqhxrRJQ1Bfw95qlktp7ptSR
-Oe8bCDQu8KSrUWLwLSkSIa6gxY8JzJeVI7saehF8CarKes753Kryo/wqRqN+KA5B
-OIOSBpKgJa+4ew7KxDiBJmwFnFAbXYIvu0KAKsHXmxhCtaRVYZi8J8FaN5GTEuFO
-ncvOml6xURiJMZn5uhiKUuVQkwM2iZeoBul1ScGIhT2FpTVDyprhm+rHTOfgp1j0
-kSE1D0bMUgGIcddMu4rHgvpT3w0qVN+2sHStl4/EKw==
-=29Hn
+wsDcBAEBCgAQBQJlactdCRB1B8KO/Xg+4wAAiaIMAKMq4LcJgpHdfQ5lBT2/qKmU
+aMgCyIzwpEeeAOJoTTDoeyX9JHt8kS9LjdUcHBpxIn4YcqCGa6TUhHEZ89NqSwH1
+Z+/cufLFcWFRwk6lvrHhM4lLdbI8cTMxOwTgWQnTcHu+IgtPiG3yrg+8Ur7UTA7n
+r2xVL49Jrd95JpMRE3ZUW8RrGCMbwtHd0wwlelo4cXgxuK4Lw2lneEzFxrdiuC+F
+t8zT4UFVmSNqwILn0hTkLoLdO6HxlCtCvf2sXwwPycCm2ylN1b5oyB7Dh18Ft6rx
+EcgDYwBRyxZZ13ziCLatwQmUvhJUh6m50bDpWSAiMaRdHABp+cHucDfQgwIERY3H
+tIP7NIdu23vEmRt2aE9ReXKk/zXv3+9FYRFmwkyPuCCLfo8qSaYLcOWBzNd4gbkg
+a4oK7ldRWSK7VpGqHN5DJTbOTFq4OTTsaXFUUla6g4yfsTaBxsxG+hC2k4bP6Tip
+gLHNVX5/zPNME/Q8WjmekLQpS+es+q6bgkG/6YTrCg==
+=uB8L
 -----END PGP SIGNATURE-----
