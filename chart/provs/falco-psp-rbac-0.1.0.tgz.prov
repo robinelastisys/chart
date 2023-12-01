@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Kubernetes
+name: falco-psp-rbac
+type: application
+version: 0.1.0
+
+...
+files:
+  falco-psp-rbac-0.1.0.tgz: sha256:a81f49036ee86de4cd1e365b5dafbee07818dff6a08b23d94f1885eb4bab03ed
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjgCRB1B8KO/Xg+4wAAvL0MAMX2wlvJ4KeXfy2ZhooJzHrm
+SPHT+ELd4yfS/IQyyctGcx50O5il0k3gKil2N3N7POLvtVfc1AwTh7bbK4vCp7wI
+Q2/0eNGS6hakO0zooNRlYk0M3fLkzqA3vSHabPdJLcsNAu1VFS4EX/m6qnhp7jlf
+Y+xBKrGboh+JKf3PayQXehKqOALDuLhGobzQfz2I6ZCNZiV9NmMWcWtE+IyV+Kcx
+ZCo2XXh/+SaySWOZFWRjXK1YuDGCGQa2pYjntLA7md/cOEMYVQdc+Saz81nZD0cu
+8zrzKzZ0oAanupRKtrWGUBGuecG/5J6V+vn/yBjxhenREx2dJiIYwhsuCIZnBqbt
+gaBwU5cMIQzcNtmQ/kSNoTRIr73vyTJaaTngoQdAlwjPPalQn3z6r6zPoYdufrj2
+VcSKUhX5U3GVmaQoWTbqfp5GmJTqPqVpMRhjfcxLk1WjD9qfPWK8XMZIZPkDXeuD
+y8h2mv423pK/bJo43hFwWO0kTYVtaya3n958VEVmYw==
+=D8hT
+-----END PGP SIGNATURE-----

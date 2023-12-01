@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for the prometheus label proxy https://github.com/prometheus-community/prom-label-proxy
+name: grafana-label-enforcer
+version: 0.1.0
+
+...
+files:
+  grafana-label-enforcer-0.1.0.tgz: sha256:da84d8444a9ccca63bdcb852e00c5cda68ca2a262c7047cfb018da94c77fcce2
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabkWCRB1B8KO/Xg+4wAAMz0MAEB8KWZAM5wOXfNJENyT4qRm
+ALcyWNBcFBL4gUlH7NXWR6LVJhKQZepMV7FQKVqP62QOkDNXbSRg8yKLnfXmZQJr
++am2weQhoaX3Pi9IOaZ6+4XI3eZ4At6moms63oe3P8lZyz3e2RA18GKipubxOgn2
+LLOJDHtssAIIfkZ2WwkmkZ4YyjDOvfSyk+ZkBHgqaK0NTh1fmert71IoCDS5V5Xb
+5nZC+iQAqg6Y6KV0fg9TUgVSPoA32j1t26bDvBe6yYtAdKpg8XQX2BvTLXKlG2Dl
+pTGJ+g8X0/ihReS/Fkbt3QRniJxRDtDLKKd9J8cMTn4DbmSKZborAFd7axN02NMZ
+aLNDb/L9e4RxrvxEmccqhsKkWolexg8gWdl1IBNoNmpxkvm5GvIYvkgDxRxNzs6J
+zphgAblHotZaFfLUoZCLNwSezf8Rw/voauI4joRn3cGSbM4b5SiZgxQxdyQmbkt7
+FFvsQ1zpHa2r2vf4OO9XPZ+cetbMLzdgwmL0BpCbPg==
+=NFBd
+-----END PGP SIGNATURE-----

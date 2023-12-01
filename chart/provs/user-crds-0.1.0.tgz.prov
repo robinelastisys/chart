@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for Kubernetes
+name: user-crds
+version: 0.1.0
+
+...
+files:
+  user-crds-0.1.0.tgz: sha256:6e85869cdeb39a605fe6948ab9760df5dba225ce1db5b713ff261e6776aa839b
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjjCRB1B8KO/Xg+4wAA44EMACghKupdrGfltb+Cs/fviBDK
+G1jwhnY64K665ibW2GnshVy1/FBI591wOwaYZVHCrrHaoZflAE1xQsdk4tQ/WZYY
+FKcROfwnZ2EpDpwWsBDzq4eec6o2Rje0NwwJrH/c4y989kYpzV/kcpFMa08MZrOA
+Repo2eI/sInZfQaRpkXfME+Mg4kvpPQy2vDDkCP40ndZAxleGp8Fy4hMMAyf+ZZF
+m4UXrM2ocsflCqeWOtb06TbKyPT0lWiYoksJp6PHUp+LnVEXv2LsjOFgvHJaxnRJ
+e8mlvWgO9fQkW3NzP9Bw0PAlWPWjZJuXgndJ2fdClsmGYA8b3pdZARHRCMjeEjts
+lE8Q9kv9rQZhxdyQLUq8KR0brqnoGOQJikEGb3h9g2mVJxNGyQpIIR17e6kWmG/A
+msPexKWts1J3hmVf2UpM4sBPz+Ok9DRxc3FZtQFoXfSNrEZK5eaJYSutkeN09Aqb
+zmP3Rpfep+lhkvL0XysXw6rjLBXthw26Og03nw08zg==
+=58/Y
+-----END PGP SIGNATURE-----

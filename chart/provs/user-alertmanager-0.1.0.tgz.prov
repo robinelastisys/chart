@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for Kubernetes
+name: user-alertmanager
+version: 0.1.0
+
+...
+files:
+  user-alertmanager-0.1.0.tgz: sha256:a0e1ac8f86c163ad0a6f8b5ff7afa8b60eafb01b9a96c1e030b84f3f50fce94f
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabkYCRB1B8KO/Xg+4wAAQ9YMAA3Zw9RFHMsQM4mReK6oWaft
+BqCvI//YPpBh0Oa8G5or+CvxFb5zOMbx7Ryz8Rx7H3IdVoEfqucxTCkmQF22XJGG
+buYjyV4h99QNK8FPQdpiU7V2hNIa+Wk/jcaPX8KQjuQiunJgJtU8CivC1bo39AOe
+RAvAyN0VOaXFouu0YXGCZbKEq/TyRjBKvRG313yfkUANUi/xsMTFeo2EYhcboW11
+m0mguzQZNxrTfYwFRPUfrqnmh1WT7A/YjJ4bfBXZ2LJgvdjk013K9CgIcTdN1I9z
+UmbkWj5TpLyFWt0nm6MC7BIQm/zaqhnFUg38HFKao8B82pUZw/gUpmUyqK5GrjnH
+RJK2U4FK9jJ63e4ynZi7bELwxdAtbyVKinOU/9CW+T0jufmscKrd5nPtdAA9B94T
+vhtqXR9NHsN0tlVf7aNNXZbmLBgxwf7hKQCFOBcPyl6h5pyXVMoABarlf7wU0cgY
+zOllX0s2k2WOhwSwiJBK883NeBBMDXmvzyRwy2ppsQ==
+=choq
+-----END PGP SIGNATURE-----

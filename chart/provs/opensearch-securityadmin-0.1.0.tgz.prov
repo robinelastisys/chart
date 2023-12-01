@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Kubernetes
+name: opensearch-securityadmin
+type: application
+version: 0.1.0
+
+...
+files:
+  opensearch-securityadmin-0.1.0.tgz: sha256:1191ac0ab43882fe1beb15df8a3627e3770159ab311f582cf2d43b3a47898f95
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabj6CRB1B8KO/Xg+4wAA4hwMABfO3Zcf/r3BLFmVqxV2H0Un
+p6gN2LNA859x27FKT4w69JbsE0qADkAPadiuntLRfJyplmcoLZJA0xwLQCZ8RkDb
+V7x5QI4E7biKJjn4j/WHA02rngJLkWQm5KBL3Wgnm6/iePyDOKWtOHMT2MNTgR8A
+mb5MZrRzNuDPL9hpDh6zbIG6NICi08MwMU2dFVHv0VQToEf8RCV/EHcZO1OiMOyv
+0mhmb62ZGkj9Kg76eXJYI2SV5qcRqYbAMwEbO7W+kFAN0Ptike3fKNxrwmEjxnkp
+/VQyv3Hj2UTVcJG1eTUVXOIYyqx9xoFZ42IN2/1ThiBST48iJIKV1SxbO2zOcL2o
+biG2xitNAy9/1j3ri20piDig6PMwaS05KO8LHBpX5IYPxPbOlr5B8qRiDOhub73k
+31xXNkEdWoepEHMzDPJtf7leOUMW3T4DItIaM42H/U4Aki+qvWwpyZu+JDGWXY95
+LrOYrdhTg8tVJkRxOpVrGdbrSyccD7I5roBdPRl+7A==
+=UAnD
+-----END PGP SIGNATURE-----

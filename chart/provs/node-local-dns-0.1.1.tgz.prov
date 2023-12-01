@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+name: node-local-dns
+version: 0.1.1
+
+...
+files:
+  node-local-dns-0.1.1.tgz: sha256:0f2af001fb3e90a3e61813478edbf6ddf594147571b0a73097423c2e74c8e295
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabkRCRB1B8KO/Xg+4wAAdtcMAFhB4fRWOLkiNUJ674wwsy6n
+3QbIweKnFLZeSOT5QrYr16uXAvr3OqAqER5sq/BuYs195KpBlD+VXhGTjfVmbFeh
+iiXgt23axaL6Pi0LIiSPRQ6y192PZsfqheM+f4jDxVaIOri+AhfyPxX2Kg+pUal0
+0Z6p8kpyT+d+viOY0FFCB+hnFuKBHIj0lQXHnfaBXNWnXcdLFsmc9XDzXh//epgs
+ToXjW7BhEtdpWn5jg+1yHhNbfNAEN8xBfDdvWEt8u8MgoK8W6gaG91rJEUuh6M91
+oYWYu2QV1HQ6LkyP7J9OvR2SZy+FxG86nufee22Rxgf4ff7zGMFdhEVSZ1ImWISp
+0JnQ76ajYW6d3/ZXqeq09nzAblFXc/BuDL72egsLsWVpP9LOlDkGLoEDA1tcyoWF
+SfhERyOAgSWVVkfyHfviSGOgm2kcyZwi5oyqFr11t2QkJ30ri/1Z8ZL/0A+SyUiB
+HX9IWRnSt1pKO/Jlehkp8nLnEcaSvFYHs8mTjBTRkw==
+=bJ5v
+-----END PGP SIGNATURE-----

@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for Kubernetes
+name: gatekeeper-constraints
+version: 0.1.0
+
+...
+files:
+  gatekeeper-constraints-0.1.0.tgz: sha256:8da7c114dc5de7c1519da3591234478118d5848975a743c0a11cff9370ecc60b
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjbCRB1B8KO/Xg+4wAAKHUMAHh+jdMobATGHrTXdFYxsfGt
+wh6Y9Jjzu7XIsezHus9GNtAgWe5NV6KwdzeFQ/ycmsXwyqBaZjVhKEs6IDlVlO1P
+pEdQRFC1DabqwCwSMNqcBnZ20wYASqtw9/YsAIhc9gb2/UyXlt8YJ/CwbXQmjfI2
+CvAylYNlMbhOwBE5SDECQXvqUNQNixB9YWyRBY+wsMih0k/EN6Ue0qeDepMMPVh0
+nD8qaH/WNqVsfWxnauu0EcLBFi1XVuTWPaK63fHgyAhV0+WFjBfWEdCR8p7tajw4
+Jvq+9bULevLArF5aJiD5nxwFXvgpssUl4FX91X0cnSY6Ss6vX6W1eCaSJZj9/R/6
+ZmWd/aYUZ7EftBTXoswyxe3O2umCM3qZC9SJNBXr5sgiLCvt3qqxzE72n/1ew+8/
+7soxXfDT8biOrcUrf3Nu7wTdPYvFsRjB6ms639o97eIA9efNqjnVhKEP99URemko
+Urhxi57VSF7tUdHCuQztc4iXWyHT/YXVbYfiNqlt7g==
+=RikY
+-----END PGP SIGNATURE-----

@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+description: A Helm chart for Gatekeeper metrics
+keywords:
+- - open policy agent
+name: gatekeeper-metrics
+version: 0.1.0
+
+...
+files:
+  gatekeeper-metrics-0.1.0.tgz: sha256:07c408a0f6b07efd1da0ab6c6b43c5d11db3747ffc15b72e75ac8b503ff3b95d
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjWCRB1B8KO/Xg+4wAADQ0MALbNyAcyS8Tl6Ijd2nrmjeG/
+6kMgxDdh6QO7O26FWNWIcV0zRTXy8CLx0bPuH93YAySI/hmVhLmIPvBWKdpS1K7D
+OT7VirC3hLYG0myzNM741zn0+J0ppSUTSYi5K737uMxyID8s7gfxxrvFsh0diWlB
+MQM2c1e0m0nnRiWtDE8FkRMxSyqjvE8EHqukNDQsUCO6cm8dBgpFipYXzh8xF4HE
+zP4nYicsBro4kohM/0binfiWOP+vzuaNxGr4+ceXCAZY5MGieiUK8HgPL0FKk7KE
+YXUwiStBUmvSRuvUE3/l7MDFpBj2ggM/4F6FoPZFG6vnpdBo6Fa0qVBhnh+YfzBu
+77V9/6nvij59GSfjnpbZOgfVrmtyPXj6HcJFZEqsoV3nj8k24+YyrwR8if5N57XU
+39EB4mM2uXq8g++ate0zfIYuggUuBrTUGLDNHG/DxuTtQjFKJQZ6R1gwqDPk3SOZ
+s4YXI64IFLdJXJC+LsxtU3HLiX86mTlDGSTYgslEWA==
+=z3Lq
+-----END PGP SIGNATURE-----

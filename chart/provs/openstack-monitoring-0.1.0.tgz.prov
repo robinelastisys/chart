@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+description: A Helm chart for Kubernetes
+name: openstack-monitoring
+type: application
+version: 0.1.0
+
+...
+files:
+  openstack-monitoring-0.1.0.tgz: sha256:f969ea663b1b7a98363733d0c420760a0f295b0c46fe726869d2dd3bb5cee9f9
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjuCRB1B8KO/Xg+4wAAyTwMABiE/1VcguoQsEPfJ/Ny2IuP
+S2X0RT226C7yB5d1n9A+lDEptCfSNyCFZtigOBLYuPgMIOQrCVOBq0beOcT9fnDQ
+yHYgi/TDP9PuWlMiURBDNIc7UQU2QYwWdSJf0Xi3HJS0orESzcB4m54Lu4Fe2j0y
+l69Ka4IsZSAjBxBkNcG0fdg9NAi4cl1jvq5oUyYbWnzZgSP2ujLb8LgN9YnYRTgb
+zOBwPMJNo3dFSx2Qy2gMxH35EgU65ZpE5IawPSZfw/GtdcNTtakuPkkf2rpgQCZd
+1TLRNkyfi/RhcpiuHH0PIwBmXwrCoDXNBVsouqRU9XoSS00SF/ErQSkgOwQrUM0X
++AE6n18L2QDwmH4e1a5zCayuzwVz8ak+VvdTjOf+NXQj8/bodYzkcQoeXKHuIXWy
+I5JTM3l+3xoKQ1zu8iIEZMg/r1VaOny44ojusiLNVJFg8pdWNONZAN4xDcADB/cv
+WKPfrTuSib2oc9yvJJuDjo/xVxEFgwYgWaOU8KKqDw==
+=hVQE
+-----END PGP SIGNATURE-----

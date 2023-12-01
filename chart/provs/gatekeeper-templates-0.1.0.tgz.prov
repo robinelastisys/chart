@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: Gatekeeper constraint templates
+name: gatekeeper-templates
+version: 0.1.0
+
+...
+files:
+  gatekeeper-templates-0.1.0.tgz: sha256:041feb42b889506afd253c43d9e5ba2d72c6607f9ae737c0ac4f10734a607026
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjdCRB1B8KO/Xg+4wAAsxUMAC0xeGDAHEL80BovvEWbmBgj
+YGVXLdLftbmxwBcl4hMFrVBroSCenrujbPfCB79/rPWM26JIYskOs64DRFZOCTBK
+TNAyqh5GYGgFHVPEq7sYTQF6zELrtJrdZMAKcb+CfPxChqBJcZ03UvP8H5yJZUhW
+15rzw3RK0t7aWcDljNhCZRXlZiJeB2rzzoGmjnc3y3dn4yvR9CgPOdNPyVJQwi0v
+bD6mi26wpIcCCa/MPjc1K9+ukkl/h8wKKITduXCWCwEdEdJR6O3FXTCNlgMVfxh9
+8XYZhOdDMSxmbXjNaxDW6iKU2qMYPGCu2IgUT5eH3N5lD27ylEStfFRPuk1RvTCx
+puMFdsIlyDOwm9CgY1YETlfysBQq6Mp0UhlMZTQE9FdTtN87gCsp6WsrQ/goNG5N
+/Bk1H975zaoafBCeMpH9UzxZwb6lrm9NKZ/Y7w3wEcxBDQAIDg/DJrYOwoBiaFMt
+sE5mc1GcY28hlOlr8ayYfqmPDse3HKDT+RNMYCfUmA==
+=mO+I
+-----END PGP SIGNATURE-----

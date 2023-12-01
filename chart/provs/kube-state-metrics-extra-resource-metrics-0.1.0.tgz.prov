@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+description: A Helm chart for Kubernetes
+name: kube-state-metrics-extra-resource-metrics
+type: application
+version: 0.1.0
+
+...
+files:
+  kube-state-metrics-extra-resource-metrics-0.1.0.tgz: sha256:eb77665e44a8ec9b79451889372fc56114a0ee35d55f4c3ccca05ab6ded6908b
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjMCRB1B8KO/Xg+4wAALyQMAAUZKhHiPdtwIC/oG+G9pBjG
+J3u+hnE/jhPPd/Uf71f9RoojRe/N0NhvDQuLmTAMCkRnVjjJl5pydGIcDPXqSYxt
+0fSpbIqQq8nNNMGXhtJvW1Yb7C94aBBofys+r1Coh9euzbW088Y+25or1cXYbMGp
+dho99CFI5q+v+tTb8SgTTbZX7EyHHIbdLX6SOcYtDM1pu+c6qlb/ynYe2gNHdq1b
+8t/eI+gukhaq0donUTO3uL7pIOvxIC6AuG5otvQIfkzLZKxvjv9K8MJ1MXctYpb1
+WjCPizyfOFjPFUkQ2o0/RqVhHjPP1YBYk629+fhm6tu7f0jdr02bNcD87IS9W5+6
+soP1zzdc6EQ6MdOkDYJPRnBEnRXZlvIiukOXFmAhjORPXlkMmNPGP2RC8WwxQoZo
+vJTHQx2LTTdnk1akYhUJcm3mAGCqJSfqhYom7k27olJeigTB9Xy96MGzI8fuQktp
+ACXv4AFaIqruI2T/Iw8Ns5MZRtmu/s05ch501m7G1g==
+=DjTz
+-----END PGP SIGNATURE-----

@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Grafana dashboards for operators
+name: grafana-dashboards
+version: 0.3.0
+
+...
+files:
+  grafana-dashboards-0.3.0.tgz: sha256:c2ae963b8474ad4375a4bd4914164303b0bed2258a1d30d232a45206c2e48276
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjwCRB1B8KO/Xg+4wAAOioMAGWBvDR4appY41P/jiYcSFEu
+/yNwExFXhO8Zl3j27aUpXDngcqGEclkOEfzhIMh1r7w2XoC9ttSmSIg1ZrrTx9B2
+QWXdwYAvrlF1hTumFFOAoKYQgGWYeMlI8gB8apcFCEs37+TRBu1VcYIEI4DCL3Qc
+w4FtttbCowwDVxWP2IZGnr9aKbFGaHHTQlSxlm9s6R4rnUjeePZ9TwxD/34efcS8
+pxuWaL+TtcthAIl8uJDd3nzCZUefJjoVriQKYJm3lPFwuTFZxykjkA/uBkHFiHPi
+GhWbkoKALRp9t3MM08FGVzTi73uFpCRHqb8KbR6oSEnEIIFQEKGvAM91T/mIO5Vo
+SY5D2gkJpEKctuhS2w2cqJ+MktEG90jQ9Y700SVKi3V+ejmAdNK8je5DpcNtvwsi
+TGiaT5i8QRM6FBEsy5JFWDR5yUtal7jnRHlDOYS6YXeTF9IQN/lfNqAJsBLBBz/M
+iw7FwuB3Tuywg5DU1TtgYIkSDgbr2MTnVZvmylHkUA==
+=5WhW
+-----END PGP SIGNATURE-----

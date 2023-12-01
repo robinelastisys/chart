@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for calico-felix-metrics
+name: calico-felix-metrics
+version: 0.1.0
+
+...
+files:
+  calico-felix-metrics-0.1.0.tgz: sha256:f84d7b3340b8609534338faa7b38f7f741a865e03772eb3be4c1f648bd1ceee5
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabkZCRB1B8KO/Xg+4wAALRQMAEzFzHATn8L/V6hyjuyjB3Mt
+PQYgjjYrPKp7hLExvqurABEeXO6g/1fJd7E2j7sleB1CdFn8q9PsflrPuxr9tDvF
+04p//KU35OXVqu5m2TenosQTTGpbhbJwGuhfYTo7dUjODAkBZd0Y81D+5Ud+WjCT
+uXfIRGdDNQB0nncmLKJMaCAydQLwVVKske+yIXrmNqwzMmFfJVurWetWEPQgw8Vp
+747o8pTIz91MjGm9JvvmK+kfryolrtvjdjV7Li5eKqFrsrR8rmsB3FFb9BiN4tlt
+yuQGXiQ+1JOz2XU0LMHxnBfXElJ7yfgzLhhnlLmphrWsVVgkMbqU+G8Upmeh2Cv0
+ThWfa62Xxia2nfjiUFPbqWvsfnZYZ0EF7aHBKNFRE3zsyVoCvtqUtkqghWdUU8Tc
+PXyY1rXPh9LfMGvsaFTGr1OKwwXxJHBX/aQiAyrUfMrJw4q6FA+Uj4GCwufrER2r
+P7Y5Eq3CenkrBcxxdJ91cOBtMdgIIZzsvOpQnpkFDQ==
+=auiP
+-----END PGP SIGNATURE-----

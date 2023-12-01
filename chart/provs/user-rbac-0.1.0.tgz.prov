@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for Kubernetes
+name: user-rbac
+version: 0.1.0
+
+...
+files:
+  user-rbac-0.1.0.tgz: sha256:0188c935a7b1cd141b3bb08c3e864acebf7c33e08b235b429a7e3ad028e99413
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabkICRB1B8KO/Xg+4wAAuPQMAJKv4m0Vuh+/7Y+rikGSB6jD
+GCjLg3TM9hrZiT44tWI8+w3JaIyTlCe7CYTZ13A3n0zhRc1OvCDLmTk/ha8WM2C0
+mnOirxcFT8iT1S8jvfJumTEwq8jeTYpovf7EjpBHLC0HrkCwwj9ihofTAWlwrxiM
+15pa2a2TKi/KDfw8eSIz++j27JgxVtBn6i61WEF3Z01bzR5XwH7SfbObsYS2QuA/
+5WpcKLZTr7aPBPoQ4Z7YfV8iJsUXXTfZoi9jwsNGmH9VEX3bYwQPTgVJ8nTZi07u
+t5pFn4LZSX6ni91NHDGVZdLB+ApAv2i1KyXgzfOhd4FJNSFH504bHKSklM287Qrm
+bqoMYgRIHSL4LVpdoUnUmfA7PDzvVHT3gd+XXddNLGixwwpjbcR31eNybP7b2r7y
+nHoeXDcZGHl9Im9rtBM57w5D6e096jMfbkGOQCBr92X0K9mWnkCst6RdYbA7v9Ld
+0LubGkVBHMkGDZEmx0s1vPSa/SCJfcxUsnAEhw4aKw==
+=xVFM
+-----END PGP SIGNATURE-----

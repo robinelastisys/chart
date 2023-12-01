@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+description: A Helm chart for creating letsencrypt issuers
+name: letsencrypt
+version: 0.1.0
+
+...
+files:
+  letsencrypt-0.1.0.tgz: sha256:c0ab1a3d38371deb9dd283f5204283f50173c3cfc20af17ae09f266237431e19
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabkNCRB1B8KO/Xg+4wAAhFQMAGGEnDeR11IeD+Gyv/Yw5OJc
+Ltz44WstWPu1TygrCHlVPXA1WO3S5X2cQftKo+8EbvS6Rzdb0LTx1XetvDlBdI4a
+ThELa3qgP1cMzPFStffYXsrN9Fy4As97DnVvKNZnQafaRuNZIAEMX/VuektvtF6Q
+a1Pv4/Lsd/XIetjxXmvjM4aKk+GlhKF67N9nALUuvBMJzNcOxVj6xvZ7JDyYHhrJ
+zXLrTppYCOrLTw8CS0Ww4h97kXg+A4smSpq2onT88gq+l+smUwMew4DNR2VrlzMH
+JABxeDbABvS0/nU/NxGXaFlh3AHDwclg5NjcntVrZ8QAltECvYyt2DZNmtAQUFF1
+qaAInYoefxaec8vvkSCYhtPtrHgAKeXcw/+5PmORvmoDdmAEhFsEkJoWphRy15pC
+AYXAsezdSaARkBYxrysjSO/XEFwcKC05DTcAx/l+bfxkWP5Y950zCr3jfZhYvXyZ
+HRz1voOynAuao7UOeWtI/KH9ssg2XaZlo05Fp4wtRw==
+=TMIi
+-----END PGP SIGNATURE-----

@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for cluster-admin RBAC
+name: cluster-admin-rbac
+version: 0.1.0
+
+...
+files:
+  cluster-admin-rbac-0.1.0.tgz: sha256:27fc28c7bc9f2ae06a9ccedf5ea19fa02122158d47493d8676b1713ba066cc1f
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabj/CRB1B8KO/Xg+4wAA9eUMAHdMSzBg0s4CAameuKQq0m1z
+/AB4/APOwuaNztvniPEKrqWlBxUdIE5fJJsIvcUaru/qDHlgawWOwolQ7KcKM+BN
+2giWPDm4jTOUyE5hwEcPttUh6pTmKy7Kj+cus+Q7n0E42Nle/yp6OozyO7sV48xO
+849HLfFGZ3X6yRmyiOIt9Ygs2LccuKrng7cTgAozITWcpZxagyvIyV06VHua8JtP
+GV564jXejgNmBr74O4T+gLOmKwxXZOOrsOXeFQRfNDs/5/z95iiM1IxGjYzqvRG6
+NY/++Lv5AASzCmaQwOh4yCPwCUl9faOI3ypQ4TwT6F6MaF3mo9yUdlFzGIWfwwqM
+tuTZNUTA63HV1b2zm00kOm1yKggyIOwxIJxKsgsJGlNE1NVuip2kBX5vSTpq6CS1
+hbataf/pT2qKBnaSGPscrLrIx2+4XhFsJg9AN3Gc8egmFmIfLZN2OK7Bmc9jGC85
+1cRQaxnC/yu4bJXFSl4Xz6aO6d/jK51rSAjqMKvX8A==
+=63CW
+-----END PGP SIGNATURE-----

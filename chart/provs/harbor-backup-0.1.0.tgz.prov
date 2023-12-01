@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+name: harbor-backup
+version: 0.1.0
+
+...
+files:
+  harbor-backup-0.1.0.tgz: sha256:400a1daf2b31f3d5109a21fc1ef4dcea82c56c79da3ec89b1e16561c3ee5669b
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjpCRB1B8KO/Xg+4wAA3scMAJYjs8IZXw5LriVSIbOL4LdT
+IyAmIjA9/6yGBzcVvb/AU1pODSfv6pauFHcPYpyWrEj+RZq+lYDehT0IGfPdHBC5
+g/Q9MDJI99jw8JR8poQ095/q4BDOUQxVVOJw6e2qTuz+G/md2dS13sS3CgHo2mbA
+mTvUQXe7jcdCecQMDLJlgEiGSZTtocAcRcA2IXaM2ypUtM9cuq98zSFhd+x3M3YA
+L3C4zmkIC1TAWvP+v7W8rygO8YZiGXSvjqagc9urkah/XCAPGj5BHMj78wBtgyy/
+E0NGEi4JatoVkzFMrSieLkmMSn6VWXsy76fnyUphzY0ahr31nf/aUXvjFQdV6N/e
+030Brji96sQfNn67XMOD1By+Qocr7mwe/kJVESaHIvcQ0fkUKXkQ5g9O50zFkMmB
+zFulj50FFN5Wb0sU/XFFvC2ETq8zJmoaKL2+Qez+VCawxuFvXyge8jU3+tcNesxk
+2TS4uzi272Z7rWiBgx8Dw8KKpc/rrXu/ciPyitgceA==
+=JV6I
+-----END PGP SIGNATURE-----

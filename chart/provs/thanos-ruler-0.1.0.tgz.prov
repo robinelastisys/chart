@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: thanos ruler dummy for prometheus operator to collect prometheus rules
+name: thanos-ruler
+type: application
+version: 0.1.0
+
+...
+files:
+  thanos-ruler-0.1.0.tgz: sha256:6a03aff29d8ddc6450fb9d81c9ee729f1c4cf99871e9e4be816ac6938c57abe7
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjQCRB1B8KO/Xg+4wAAVY0MAHQEVRE9lPQrixtMUqwAeBt9
+Lsr/X4I3DljoVKmj0p1FYcdYCUzNTDSTR1iwrTYzHDS/HgIkuu39bIhBYw/L3Uoi
+Tq3Nc8xqbLo64kRTDZtFsvvZBSPDi0Q2aSvobOt26SETHBfusRmfv0/gb/lUIBtZ
+7r39KTaQyix9UcrLXvNUY/6vAqmNX+ZawA+Lkn3xsJDAa5Fkok3SWjrlIgoEhhOg
+pVDVTtlMB+3NpuEmhQLIt/G2daMmB1nd7L2YzTNg8VijT1nmyWU6nRuikxM1oDA7
+aoxKCvPTw73w8XuWPgp4T26T5zMcgUI3KtwcFoJ7SFVGCM1CDJMjfxlkjseDYdb8
+Vq6R29lrBuyFxW2UueYCY0HUArNZ+B3QFllKiBT9aBfgLTLEjYJ2ukXdP7tjo5Hx
+w+AHotBbcei9heWbCksgZyuuU/qfKpSiTviV5uaAFyqZRtSfVf5bqpV7R/AFlIIr
+lOcUq7bpUAon8d2VoZjjNmUu790DMFvokBDuWeviTQ==
+=xO6D
+-----END PGP SIGNATURE-----

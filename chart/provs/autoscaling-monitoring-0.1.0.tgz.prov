@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+description: A Helm chart for installing a Service and ServiceMonitor for Cluster
+  Autoscaler
+name: autoscaling-monitoring
+type: application
+version: 0.1.0
+
+...
+files:
+  autoscaling-monitoring-0.1.0.tgz: sha256:100db0ee8b612cf78e76025917db634f0dd079e2564c172801f2b2c034cf9c34
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjnCRB1B8KO/Xg+4wAAfYUMAMTXjvcxC7/ksY1OyDopFEPu
+2xvpHhC0gIFpH2Xm9ckDFd9m/4ybmVA35AOxCYUPFE7m0P4sTmJqPGPUTkivrig4
+u/BHDHwfe2wDZAvUqWGYvjj5xnFUAaMIz1Kj94PzzehGdHdGHxA3HUjzvtNBLmy2
+OuDNSuRf03jlppElhh+S6KQ/dR0FvA7ajir6k7CDpHaLyAHU584QdTEtUdC/9VEh
+9eI7QYjjZO5dObcNXDbKeFbVpBD5bkZlPeLJxwi2G3rXq2yiQyT6lUpG1Cyp3HOO
+iBsZM2Z3uRpH/l89LcE44f3vZ8gZIEWZO0GVPBChoJuUwGWJOtnozXG251aEG7Xy
+sDEH7FnmYXijeeiOVa62YvziD569PKZ9Kl+xkmPZKfX73NdzHryH05fNOX4sWJ+i
+n1SkdLzDFH94ATirQ26acw3FTO6BGLAHoPon19m7BHl1/Zsk+HO4BxbhbkjnmQvH
+NgpgW/chixePK1+FdICMnRNxBvFtHI7LFmzhQSw0Jg==
+=v9qH
+-----END PGP SIGNATURE-----

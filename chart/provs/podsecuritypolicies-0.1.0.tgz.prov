@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+description: Helm chart for common gatekeeper PSP for both clusters
+name: podsecuritypolicies
+type: application
+version: 0.1.0
+
+...
+files:
+  podsecuritypolicies-0.1.0.tgz: sha256:559081baf9a749e606e7d7075a0bafa42afee5eee9fc36136a7556917c0be0d6
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjYCRB1B8KO/Xg+4wAAJ+MMADuRToZ03c/2syHBJSHp+mxG
+AToiuyYRrZkLY9/DFY9bIlvPI482/NAwroNKQRI3cAcCMqh/09bebFzwRmV7PPjf
+G9gtAD/iQNEnILUWa3Gj+ehr6XN03foC/rj5kSlhZSvJ7tJhMKBS7yvYgZvpEA2C
++Q+SUIFgIYh8RAuSeUbncrJ2IXAwGtmkWg6CLSytivuitoe4l/sm5NzBJAEcJ+2Z
+3iecrdIB3gOILSL0JqeMw7VtGKIGqEprlh+vX3BjVJlAF9Og1S8j027F2qy0ronR
+KyxqEE2UX2J4CF4HiEESQOHGMuxwau9IhXLxiw28bQff2PZeb4rm4U8Cclpm8jWt
+0N+LUoc8+9zFCR5wNgpBr3atE7IlvnQ1ak77QCPPcLxsP4OtDbjbrTLVzf+lCMsy
+7g1PUHtJC4VgwBSBjX/h9QR9JYg09A733e2pmnKQhaSJKuDYUD6BqPOW93sIqS7v
+UzTNZCo3MyhQ/9O0GnGVDbCSUZdrscfy1+rm3UEVhw==
+=lj0b
+-----END PGP SIGNATURE-----

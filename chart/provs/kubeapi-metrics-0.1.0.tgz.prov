@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+description: A Helm chart for Kubernetes
+name: kubeapi-metrics
+type: application
+version: 0.1.0
+
+...
+files:
+  kubeapi-metrics-0.1.0.tgz: sha256:fba1370731efc9d2b76f19512333f7b51ea3ebac9099bf1f5b6a80e41da99a2e
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabkKCRB1B8KO/Xg+4wAAff8MAFaLvh0SpeiBVCAfv70k+iwV
+tUt+tb308fuLXBR5MJg/pnF/x0AE5VDVtKennrs0WaghPNSj8HNReZHj5k7u/5+d
+Dp3NzApipsoNwGlctZzTm/1UjUXOhBP/u+643uwA6jgDcYm5aOIVVtWEbIvy4W0Y
+vWTt8LiAS//0mjNn6MDiN66blYzkYi3YVu5sOTLbretQrlnWwsTpwU2e2eEcnyRy
+Dz92U9H3HDYTIBOTvLtoLkB1bt9+33VdH9LREi0EHMD7s2yvxPdCKItYcOEPYAQ/
+XU5KRtCQKfv9+3YbY0bg/BmnMzMu4PDAnvXMMnVlykG9MZIdr63jPyBf9Jk8s1ei
+9MvqlThpkXgp1dhr9MhSbmrdr45bFR+5Pw44XWTFikptNN8wRNTkN0OnKLRm2rS/
+/f6T1t1Z9GarbV0D4Md8f+Y5P958btJb+dRZFbPcYrE9nAIBj5FVxiigcFbAWCzH
+cO4OXqfcmhat31QBZ0l4uoIqEtasX5oRLF/wxdFbbg==
+=TR/N
+-----END PGP SIGNATURE-----

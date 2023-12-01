@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: This chart creates the certificates used internally by harbor
+name: harbor-certs
+version: 0.1.0
+
+...
+files:
+  harbor-certs-0.1.0.tgz: sha256:576d85fa236cf8decc7eda419a6899bb6265edc6c1fbaafa0b051e5e25844ea1
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjsCRB1B8KO/Xg+4wAAQjwMAIJ1m+iWr8GgaO11TIM9h5/5
+hXBLox7QvFIyYtbdIcc722DbWHHJ2Epg3/Xa0kSrOagM1GMUSt2r7S3eihwR1J6w
+SISTbeZ40bMGKntjzSPLTzNAxKTjOIG95xru2/hIcuJmY2TSbfFnaqOMIiCp6npe
+mA73Kr6Bjd9Yj60hwx9mK8+EYZItkWyQr6qmrVSdBUV0Wj6xmgQBrzLTBlCsFuga
+rvb1NSUnkYU97UMEJUl8iF5cD/U52qsdg2ScvR2nYEdlGzLzYicwV1No28DfIL0S
+A0te+L67EK01kow3sbXUR69DvTl7VrW8gIDoxXu2rgN9APiHvBaA8lIJsBWoVnrS
+39yZ8vD/Z2dfKxkUSAuQ3ffXH03GqMRjXle9Et2Rl8RId/t26mg9/cqhOfTlsQpm
+86/o8OuzPpK05DQuSvHQWe4BEl7fgFVMiPnbN7egveDDdpuAqOHXTdEruUzv2Dxg
+9VJoxQFBWmNYXxSwLsJvq/iZ2bSMoWbxyoO8fBS7eA==
+=iQ2p
+-----END PGP SIGNATURE-----

@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: v1.1.0
+description: Helm chart for Hierarchical Namespace Controller
+name: hnc
+type: application
+version: 0.1.0
+
+...
+files:
+  hnc-0.1.0.tgz: sha256:23c21c81841659f14e153dd12fd7aea089283063c65223b211cacc57163b98b6
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabkSCRB1B8KO/Xg+4wAAVgkMAH1ODNXWDLjLLIZiA9w3GoXh
+Pap+Adi44cqhq5zeVevFQzVTVYiGpOWewZPJyRWCUk91xc4+LvMUxRoL3BLrm1/m
+aHaIklF/B9kxaJi1wbQ/xVCT+VmuAxq/MG9ERRa9FXG839izKVaRdhxYV+HRHCJz
+lzWf4AK5/gWRMTpR9ZYsDKqn9EImFZWse6zc2C95CXQiDSPrWWmyP6OrRBLM3mex
+S7zIGoSMOrLRTkRA+mwLGif8w4xr9BLAbFCzUprV29SsuEgBlKDngPyceb2l+LvP
+L4wR4weoyDon6/cKFfUJdelytsqP/8lsaAJddKAFADXY2OrGeHtZ7e2d4lz3Ijy9
+85QqhOn7jE31/hJMCa0XhihagkC1FRI/WsBq7z87wdNIyqmN5h8Gpd1OYbqVOc/A
+iP061NjH5YP1P1+Rd7kGQHIdLYsfhJtPsqM5Olww8KyVNbkyK9ZofRECxW5d5jmv
+uJUSp/ENqvJgmyhx6dB/r1KCANptF8j9VofAfyWDgQ==
+=M7CI
+-----END PGP SIGNATURE-----

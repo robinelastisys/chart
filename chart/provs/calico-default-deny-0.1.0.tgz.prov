@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for calico default deny network policies
+name: calico-default-deny
+version: 0.1.0
+
+...
+files:
+  calico-default-deny-0.1.0.tgz: sha256:8a2e047a9155d9e7510f10677b31bca25fd5fa5a4674cb318c0a8dd5d3f0604f
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjRCRB1B8KO/Xg+4wAAVGAMAGIrTyGEYfLED4/XJgpXwER1
+4LGKUtV15JLnb/wT0p/OVA3VU3N2o8s8Roix0MQkzuuoZ8f8hl7YHu6QsvDjrOdv
+E7HU80mk8FBNxz6L2LHirv9+bAEsgv1Hzx+UfwrpCLIl7wRKF2cyIw8/xEZdjLRH
+6NicoT91nGhoBWl314fGAkNNZK4eTg65o03ieVNfnYD6GYyw0VVda7bSrH1pqZFB
+UyZLaxrUIZ7w9/zPFTPFnsznfU0rOWaR5ZRcXvCUNUqCq/ppmy/5Q76lEN3tDM/d
+N+xneICfjXmoKU+LoR00VYjiwxkhnLlLs+fVED1nNtu+W6rtEbBJBVFLW4nu7LJk
+Hn5hGt9aK6VhD+fF63N7GKIJeMoOvqkjSvHFHtiYNCpn0t9g9t8cGy0aVgQuydLN
+IT+3dnL1meYwwe0cJtOZQhqUQQX52myfDRXmBB/udcs/YeecI0m10DaE3y4WFmsP
+sB/IWNvgiIM0Jb3ix7Bio8lKCOIioHmlCKy8v+W2SA==
+=fgc9
+-----END PGP SIGNATURE-----

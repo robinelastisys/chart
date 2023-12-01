@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: "1.0"
+description: A Helm chart for Kubernetes
+name: prometheus-alerts
+version: 0.1.1
+
+...
+files:
+  prometheus-alerts-0.1.1.tgz: sha256:0e102108d52bc347eabd64317229ae63c16b9531c1bc73f7c04712679cf5781c
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlabjyCRB1B8KO/Xg+4wAA+WwMAMhJZyewHEH9slcBzkG4lUPB
+69FQAIGwbiVQxBLk0wIBUbHzXNdsKUH0f+wZYapfhNLPxRFSmZn7HF65YxqfSBIw
+gXskeK/wp5VBQJQHEzxmslkGAESW5oNDVNtBkPb9CNsNBbacXcNABpheoZmsqYNN
+ruEhWK9TKc2TcFoDa+GfxMePcUF8ZzjwjP7bhcpcT+aE0RIsWHaINZm/s3bZ8A54
+x9m4ThrITuTU/QxOV09brbeXa3FU0yIQTnzYK5T4OOYt4a4ZR5qAGz+xaSNjlP8z
+AfaJkrGAHHIaYpQVvsYVXbsJz9PNVrUbhwh/7Odc4bwHoJKto/CrDnsk55R2SuG6
+YXBCGhYtGoUhiCov0AF5Tl1F3xIo5saIEvompr5Az4J7i/fdXpwa5nQ+zW84srEk
+/EM+Lka0h+GYEakw7Ctu/WD6jBTm83++9QC6iUkZY29rPnV3m19Gycghp8IyxCTU
+XrtSfD1wevwDT7fRaSHXyxa1RD6grafxH4LLfrVZ0A==
+=84cq
+-----END PGP SIGNATURE-----
