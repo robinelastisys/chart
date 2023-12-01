@@ -9,17 +9,17 @@ version: 0.1.0
 
 ...
 files:
-  calico-felix-metrics-0.1.0.tgz: sha256:f84d7b3340b8609534338faa7b38f7f741a865e03772eb3be4c1f648bd1ceee5
+  calico-felix-metrics-0.1.0.tgz: sha256:03018b1c9512ff7edca5cf0507b5ddbbe0562016211d86965cce2304c2ada353
 -----BEGIN PGP SIGNATURE-----
 
-wsDcBAEBCgAQBQJlabkZCRB1B8KO/Xg+4wAALRQMAEzFzHATn8L/V6hyjuyjB3Mt
-PQYgjjYrPKp7hLExvqurABEeXO6g/1fJd7E2j7sleB1CdFn8q9PsflrPuxr9tDvF
-04p//KU35OXVqu5m2TenosQTTGpbhbJwGuhfYTo7dUjODAkBZd0Y81D+5Ud+WjCT
-uXfIRGdDNQB0nncmLKJMaCAydQLwVVKske+yIXrmNqwzMmFfJVurWetWEPQgw8Vp
-747o8pTIz91MjGm9JvvmK+kfryolrtvjdjV7Li5eKqFrsrR8rmsB3FFb9BiN4tlt
-yuQGXiQ+1JOz2XU0LMHxnBfXElJ7yfgzLhhnlLmphrWsVVgkMbqU+G8Upmeh2Cv0
-ThWfa62Xxia2nfjiUFPbqWvsfnZYZ0EF7aHBKNFRE3zsyVoCvtqUtkqghWdUU8Tc
-PXyY1rXPh9LfMGvsaFTGr1OKwwXxJHBX/aQiAyrUfMrJw4q6FA+Uj4GCwufrER2r
-P7Y5Eq3CenkrBcxxdJ91cOBtMdgIIZzsvOpQnpkFDQ==
-=auiP
+wsDcBAEBCgAQBQJlabp9CRB1B8KO/Xg+4wAAHaQMACD9w04mkfzQLE6hPfIv8z8Z
+ublibMIfYLzFGW+B8c0uD7q+r/SkelPs5gues4QawFsqTjJGJfgAa1DXH/Cpa4Sr
+gsXJKHSSTx4jUMjIjaqvomUMI5Cfg4/ybVXqXuqbjf15i1hBhjzyNbWc7r6wMSIz
+9IEYchF62vSXKN2zrsJTwkGuic2F0KKnfNgLgR6AFY/2jpW1PC2pvxrZGiJfDjZX
+thSS7Ukk1gO3fMNfqhCsBasuPf0XmcrY3W6kz5PDabBUEEpk5N6oBycjcQqvOajF
+qZc55epCMX59Hj2moSHObIndKXJlkEZvRUCEeEktiL1sTqxSevVdJNmmM60Pc6Ec
+PBu68PkHI6ph/B0pXcWSNOapsMQo8KYesmFyga6WUA3vnfcmzkXu2+Y2tuG3hsSW
+7vbvT6gA4UaPV47TIq3xTdgf+bxRoafXf+gENyuhPsQ5gJkKK5iGC2G+nFHXK/eN
+DM79H/kn+331k9ctWjRr3RKNlCnaeoyvkzN1Dub3pQ==
+=c8vi
 -----END PGP SIGNATURE-----
