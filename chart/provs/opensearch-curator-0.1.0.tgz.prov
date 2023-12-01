@@ -10,17 +10,17 @@ version: 0.1.0
 
 ...
 files:
-  opensearch-curator-0.1.0.tgz: sha256:bc15b5a3b2fdf5990b3c9474cfd086f63686e426621642ad6f7ee7f65fbdd60c
+  opensearch-curator-0.1.0.tgz: sha256:e3aa02409934f0e36694d6389f47fe893a1e1167a963ca4399c576e5f3ac0d55
 -----BEGIN PGP SIGNATURE-----
 
-wsDcBAEBCgAQBQJlabpeCRB1B8KO/Xg+4wAAV9YMADTYzF2hubEYoh8o/dLFlY+8
-iRY5eTfjfNllmBZLOlpUhH0PC8Tc2TtNhtctyEZhViY5esg9l5tEbjfIFgeGUZwq
-keqqPUTueAclwKuGg6JjP2gqwF7fIc0QwVf3wUbOJhmLMukFZ7odV1MfsNijb8IF
-FCQrfpXiT/9owAlogihYw9Qckgb9fzAEiVOmmbH6XAVhxKAkQamTA63LNZocV/3X
-UJa1Jy8QWyuuQKhFaEWiivzYEbjcLhLLCUmzTmDtF9oOPmsB1U8nQit4jS8cxVlR
-Sf1SVpH2vivkCeX9KivbEsbsGsPDjN3jWf0dU3oqO8Me6d5SJe/xAUPo7Gcq23J7
-SEjqAsb+obzuWYyq2iIVnuJncncHDdiynKsA2qBlORGadQYVcjrgsOJMXsO1CU46
-ydfmKma0AXlS9z20jIAwoPrkSszFL8xfGLNDlKogEsCmxDLVtAJkoKX14wKa7zYr
-84rP6tO0+07IPKdHt/Oel8u1LKtUI5hs67YsqXUTqw==
-=Cn/i
+wsDcBAEBCgAQBQJlacbmCRB1B8KO/Xg+4wAABXkMAHSV49PbIGzehHea5PBIabJa
+62teqIpz+4gOyRFuBa93Nvtg2If5kbmXdjoSiU1WMmw71Gj/UKioqFWXza2nozoc
+alBkhP/A8spSAIUpMMsctvINlXAyH9eX/h7WqwiSAYskRn+LqpRFBd3cHK7ey0Ec
+zNrUlQHwdkfcosUICaAU1DCLnRoRGltcvDEJtRel+XZuSo3BKMmwU0WSo9MPlXbw
+H5wxwElY7kGmdT0b/YVysXddxamyovF1jadfiRwMeDQHCcLL2aMkPCJ+II/0BemA
+6pj3jvlTXoyk6JOAUtpGHjMnvlFuvNk+R0UHjtFrA/05di1sUqLbrVMlDBhJNTbj
+hp5A479kcfRNdsePyH4Z+r5wX32fe12g68WiihhcKK/lHoDHewI1uzWJ5y+RSyst
+AQVmKBxFBVXcnR0z9iMiEiadR6i5Qcoj9nE+8xFjAO0WQ9GAuekVIAGAC5RawZ8t
+iGFU6lIFhjVTAayXZVBw/ecmsU2Yt9DSLEJvZnGvTw==
+=U2F7
 -----END PGP SIGNATURE-----

@@ -10,17 +10,17 @@ version: 0.1.0
 
 ...
 files:
-  thanos-ruler-0.1.0.tgz: sha256:1c9ad1af3df027339fd21c97cc757d1f5277e043bcdb5082ba1b0ad68690860c
+  thanos-ruler-0.1.0.tgz: sha256:62cac95606675e9c5d746ae95845d66c0dc7e4e2a37f941079d9e36aa6063c83
 -----BEGIN PGP SIGNATURE-----
 
-wsDcBAEBCgAQBQJlabo/CRB1B8KO/Xg+4wAAoDMMAMedj1j4gu0/nFIajtHoKaa3
-5BCxxugW6f8rCRiB+1hQW4W/xEAVFMsEpRjnL71dyBYflr6QfngRaiKTIiQs7URt
-mbR+egkOLBR9CgZuZ081ozTf0iWnL5D+INzIRPT6AfmM5YFrRdR4/8ndasvR217Q
-UxinsuU6ynlIRMgUVHQdfE58nLl1byNy9Tg6wMm4zkSktvM4LkgO8r1PbYQGMVcc
-cBZe7mT2srPFapPGk/nfYvCTdxtJrsXNBWd4anemz9r0zZGOaTZ90Z6/JwUkhPpA
-HQVoiFnQTaHJVuOZPmziUvH0foBR2wolUtMvT81cyLGpmOPL/+DvrDAueKi/3g2s
-4dn+4rDHNwPKmHkV/rNiEPUotpqgYh5l3piNAutfFy5+mRKJVBI283+Hm3Mxolh6
-84OKHVWukFLsc/hDHvXCsaPK42zBtGaAdxnBgoBf+16dmym/ya3bfWifLjs2Snej
-NVQ4EyMGMFrtAn3ZcmCydFhDmoQNnxm0PCXxsNEuQA==
-=yipw
+wsDcBAEBCgAQBQJlacbECRB1B8KO/Xg+4wAAeh4MACblKe/Tz6sblJQzy0Le6j4p
+2WP+moJWtgUhiWB5vUmNTcrhBWgNYDghlwoQ+iJm0sQvQIc3KAtmvnq2XQsiWFT/
+wJexjHUoF+zSjles6X/XhvZkECbJPyA8Ccr2Xhz4STE3j6UqnW/80ERJLmGiZyvi
+5VyzCcvBJj2yGXnizYyzD84AW66a+ed4xjsFLlzE0DNjiAIDqDmvNsIUCl7bPrmX
+pPfGm31aZOon4yIjuPDVtoNYX6BVXxvQVkJa6UMhasVQ4KPnWYWflxeXMg5nrs9I
+Nxr4cIAj5+4G3sC+uIl+WvJm4w4CZ9Rqc/AMNc4xI4kS1g/CdMZpz6eWf0+E4oOO
+yJvj89brVI1l1hb4/gug1zDKwQJnt6phCeKTUK8JxLrffQUgQH/wyXA2VUnEq7yK
+nSaZB6vseT1mjPzk2xvIaO3ZBgRPrGGP7/MC5mTbbwkSqMOMUlzxdJhoZ9v28Z/C
+rOhqnEZHsIBmibd0mnigMoUeWBGuADWCSfceFAcwog==
+=Mnq5
 -----END PGP SIGNATURE-----
