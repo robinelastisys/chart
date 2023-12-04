@@ -27,12 +27,12 @@ jobs:
           
           - name: Export PGP Private Key
             run: |
-              gpg --export-secret-keys 'helm sign 2' > ~/.gnupg/secret_keys2.gpg
+              gpg --export-secret-keys 'Helm Package Signing' > ~/.gnupg/private.gpg
 
           - name: Helm Registry Login
             run: helm registry login ghcr.io -u ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }}
 
           - name: Package, Sign And Push To Registry
             run: |
-              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'helm sign 2' --keyring ~/.gnupg/secret_keys2.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
+              folders=($(find . -type d -exec echo {} \;)); for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/robinelastisys; else echo "Folder $folder does not exist. Skipping..."; fi; done
               echo "Done"
