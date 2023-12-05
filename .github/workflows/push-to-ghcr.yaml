@@ -34,7 +34,7 @@ jobs:
 
           - name: Package, Sign And Push To Registry
             env:
-              FOLDERS: 'chart/gatekeeper/* chart/networkpolicy/* chart/opensearch/* chart/openstack-monitoring/*'
+              FOLDERS: 'gatekeeper/* networkpolicy/* opensearch/* openstack-monitoring/*'
             run: |
               IFS=' ' read -r -a folders <<< "${FOLDERS}"
               for folder in "${folders[@]}"; do
