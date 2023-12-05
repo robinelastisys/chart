@@ -36,10 +36,10 @@ jobs:
             env:
               FOLDERS: ./gatekeeper
             run: |
-              read -r -a folders <<< $(find ${FOLDERS} -maxdepth 1 -mindepth 1 -type d)
+              folders=$(find ${FOLDERS} -maxdepth 1 -mindepth 1 -type d)
 
               echo "${folders[@]}"
-              for folder in "${folders[@]}"; do
+              for folder in "${folders}"; do
                 if [ -d "$folder" ]; then
                   helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" &&
                   helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }}
