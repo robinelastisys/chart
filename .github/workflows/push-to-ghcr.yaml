@@ -37,6 +37,8 @@ jobs:
               FOLDERS: ./gatekeeper
             run: |
               read -r -a folders <<< $(find ${FOLDERS} -maxdepth 1 -mindepth 1 -type d)
+
+              echo "${folders[@]}"
               for folder in "${folders[@]}"; do
                 if [ -d "$folder" ]; then
                   helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" &&
