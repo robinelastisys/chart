@@ -34,9 +34,7 @@ jobs:
 
           - name: Package, Sign And Push To Registry
             env:
-              FOLDERS: 'chart/gatekeeper/* chart/networkpolicy/* chart/opensearch/* chart/openstack-monitoring/*'      
+              FOLDERS: './gatekeeper/{metrics,podsecuritypolicies,mutations,constraints,templates} ./openstack-monitoring/templates ./opensearch/{curator,backup,secrets,securityadmin,slm,configurer} ./networkpolicy/{service-cluster,common,workload-cluster,generator}'   
             run: |
-              folders=($(find . -type d -maxdepth 2 -mindepth 2 -type d;));
-              echo "${folders[@]}"
-              for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }}; else echo "Folder $folder does not exist. Skipping..."; fi; done
+              for folder in "${FOLDERS[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }}; else echo "Folder $folder does not exist. Skipping..."; fi; done
               echo "Done"
