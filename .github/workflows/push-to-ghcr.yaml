@@ -34,7 +34,7 @@ jobs:
 
           - name: Package, Sign And Push To Registry
             env:
-                FOLDERS: './gatekeeper/metrics'        
+                FOLDERS: './gatekeeper/*'        
             run: |
               IFS=' ' read -r -a folders <<< "${FOLDERS}"
               echo "${folders[@]}"
