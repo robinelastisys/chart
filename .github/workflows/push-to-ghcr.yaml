@@ -34,8 +34,17 @@ jobs:
 
           - name: Package, Sign And Push To Registry
             env:
-              FOLDERS: './opensearch/curator ./opensearch/securityadmin ./opensearch/secrets ./opensearch/slm ./opensearch/configurer ./opensearch/backup ./openstack-monitoring/templates ./gatekeeper/templates ./gatekeeper/mutations ./gatekeeper/metrics ./gatekeeper/constraints ./gatekeeper/podsecuritypolicies ./networkpolicy/generator ./networkpolicy/common ./networkpolicy/workload-cluster ./networkpolicy/service-cluster'      
+              FOLDERS: './opensearch/{curator,securityadmin,secrets,slm,configurer,backup} ./openstack-monitoring/templates ./gatekeeper/{templates,mutations,metrics,constraints,podsecuritypolicies} ./networkpolicy/{generator,common,workload-cluster,service-cluster}'
             run: |
-              IFS=' ' read -r -a folders <<< "${FOLDERS}"
-              for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }}; else echo "Folder $folder does not exist. Skipping..."; fi; done
+              IFS=' ' read -r -a folders <<< $(echo ${FOLDERS})
+              for folder in ${folders[@]}; do
+                for dir in $folder; do
+                  if [ -d "$dir" ]; then
+                    helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$dir" -d "$dir" &&
+                    helm push "$dir"/*.tgz oci://ghcr.io/${{ github.actor }}
+                  else
+                    echo "Folder $dir does not exist. Skipping..."
+                  fi
+                done
+              done
               echo "Done"
