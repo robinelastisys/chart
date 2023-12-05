@@ -37,7 +37,6 @@ jobs:
                 FOLDERS: './gatekeeper/metrics'        
             run: |
               IFS=' ' read -r -a folders <<< "${FOLDERS}"
-              folders=($(find . -type d -exec echo {} \;));
               echo "${folders[@]}"
               for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }}; else echo "Folder $folder does not exist. Skipping..."; fi; done
               echo "Done"
