@@ -43,6 +43,7 @@ jobs:
                 if [ -d "$folder" ]; then
                   helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" &&
                   helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }}
+                  echo "$folder" pushed
                 else
                   echo "Folder $folder does not exist. Skipping..."
                 fi
