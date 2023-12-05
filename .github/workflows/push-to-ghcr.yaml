@@ -34,14 +34,10 @@ jobs:
 
           - name: Package, Sign And Push To Registry
             env:
-              FOLDERS: 'chart/gatekeeper/*, chart/networkpolicy/*, chart/opensearch/*, chart/openstack-monitoring'
+              FOLDERS: 'gatekeeper/*, networkpolicy/*, opensearch/*, openstack-monitoring'
             run: |
-
-              INPUT_FOLDERS="${FOLDERS}"
-
-              ls
-
-              IFS=' ' read -r -a folders <<< "${INPUT_FOLDERS}"             
+            
+              IFS=' ' read -r -a folders <<< "${FOLDERS}"            
               echo "${folders[@]}"
               for folder in "${folders[@]}"; do if [ -d "$folder" ]; then helm package --sign --key 'Helm Package Signing' --keyring ~/.gnupg/private.gpg "$folder" -d "$folder" && helm push "$folder"/*.tgz oci://ghcr.io/${{ github.actor }}; else echo "Folder $folder does not exist. Skipping..."; fi; done
               echo "Done"
