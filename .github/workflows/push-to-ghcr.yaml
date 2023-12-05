@@ -1,6 +1,4 @@
 name: Push Package To GHCR
-with:
-  folders: 'chart/gatekeeper/*, chart/networkpolicy/*, chart/opensearch/*, chart/openstack-monitoring'
 
 env:
   DOTNET_VERSION: '6.0.x'
